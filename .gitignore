@@ -1,0 +1,29 @@
+# cartografía nacional: pesa 170 MB y se vuelve a bajar con R/00_descargar_cartografia.sh
+datos/cartografia/origen/
+datos/cartografia/ext2001/
+datos/cartografia/ext2011/
+datos/cartografia/ext2021/
+
+# el vídeo de la consigna, 36 MB
+datos/originales/*.mp4
+
+# el zip de indicadores: los CSV extraídos ya están versionados
+datos/ine/*.zip
+
+# salidas superadas
+salidas/obsoleto/
+
+# ruido
+__pycache__/
+*.pyc
+.Rhistory
+.Rproj.user/
+*.bak
+*.SOSPECHOSO.csv
+
+# los recortes de Madrid los regenera R/00_descargar_cartografia.sh
+datos/cartografia/madrid/*.gpkg
+
+# del fichero masivo de indicadores por sección sólo se versiona Madrid (ccaa13)
+datos/ine/csv/*.csv
+!datos/ine/csv/C2011_ccaa13_Indicadores.csv

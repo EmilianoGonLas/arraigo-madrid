@@ -1,0 +1,733 @@
+{
+ "incluidas": [
+  {
+   "rama": "Datos demográficos básicos",
+   "nombre": "Sexo",
+   "clave": "L_[SEXO].[DESC_SEXO]"
+  },
+  {
+   "rama": "Datos demográficos básicos",
+   "nombre": "Estado Civil",
+   "clave": "L_[ESTADO_CIVIL].[DESC_ESTADO_CIVIL]"
+  },
+  {
+   "rama": "Años de llegada",
+   "nombre": "Año de llegada a la CC.AA.",
+   "clave": "L_[ANYO_LLEGADA_CCAA].[DESC_ANYO_LLEGADA_CCAA]"
+  },
+  {
+   "rama": "Años de llegada",
+   "nombre": "Año de llegada a España",
+   "clave": "L_[ANYO_LLEGADA_ESPANYA].[DESC_ANYO_LLEGADA_ESPANYA]"
+  },
+  {
+   "rama": "Años de llegada",
+   "nombre": "Año de llegada al municipio",
+   "clave": "L_[ANYO_LLEGADA_MUNICIPIO].[DESC_ANYO_LLEGADA_MUNICIPIO]"
+  },
+  {
+   "rama": "Años de llegada",
+   "nombre": "Año de llegada a la vivienda",
+   "clave": "L_[ANYO_LLEGADA_VIV].[DESC_ANYO_LLEGADA_VIV]"
+  },
+  {
+   "rama": "Residencia en 2001",
+   "nombre": "CC.AA. de residencia en 2001",
+   "clave": "L_[RESI_2001].[DESC_RESI_2001_N1]"
+  },
+  {
+   "rama": "Residencia en 2001",
+   "nombre": "Tamaño de municipio de residencia en 2001",
+   "clave": "L_[TAMANYO_2001].[DESC_TAMANYO_2001]"
+  },
+  {
+   "rama": "Residencia en 2001",
+   "nombre": "País de residencia en 2001 (grandes grupos)",
+   "clave": "L_[PAIS_DANO].[DESC_PAIS_DANO]"
+  },
+  {
+   "rama": "Residencia en 2001",
+   "nombre": "Relación entre residencia en 2001 y actual",
+   "clave": "L_[REL_LR_2001].[DESC_REL_LR_2001]"
+  },
+  {
+   "rama": "Estudios",
+   "nombre": "Acude a centro escolar",
+   "clave": "L_[VARESCOLAR].[DESC_VARESCOLAR]"
+  },
+  {
+   "rama": "Estudios",
+   "nombre": "Nivel de estudios (grados)",
+   "clave": "L_[NIVEL_ESTUDIOS].[DESC_NIVEL_ESTUDIOS_N1]"
+  },
+  {
+   "rama": "Estudios",
+   "nombre": "Nivel de estudios (detalle)",
+   "clave": "L_[NIVEL_ESTUDIOS].[DESC_NIVEL_ESTUDIOS_N2]"
+  },
+  {
+   "rama": "Estudios",
+   "nombre": "Tipo de estudios completados",
+   "clave": "L_[ESTUDIOS_NE].[DESC_ESTUDIOS_NE]"
+  },
+  {
+   "rama": "Relación con la actividad",
+   "nombre": "Relación preferente con la actividad (activo o inactivo)",
+   "clave": "L_[RELAC_ACTI].[DESC_RELAC_ACTI_N1]"
+  },
+  {
+   "rama": "Relación con la actividad",
+   "nombre": "Relación preferente con la actividad (detalle)",
+   "clave": "L_[RELAC_ACTI].[DESC_RELAC_ACTI_N2]"
+  },
+  {
+   "rama": "Datos de la ocupación",
+   "nombre": "Situación profesional",
+   "clave": "L_[SITUACION_PROFESIONAL].[DESC_SITUACION_PROFESIONAL]"
+  },
+  {
+   "rama": "Ocupación profesional",
+   "nombre": "Ocupación (a 1 dígito de la CNO11)",
+   "clave": "L_[OCUPA_PROF].[DESC_OCUPA_PROF_N1]"
+  },
+  {
+   "rama": "Actividad del establecimiento",
+   "nombre": "Actividad del establecimiento (rama)",
+   "clave": "L_[ACTIVIDAD_EST].[DESC_ACTIVIDAD_EST_N1]"
+  },
+  {
+   "rama": "Actividad del establecimiento",
+   "nombre": "Actividad del establecimiento (a 1 letra de la CNAE09)",
+   "clave": "L_[ACTIVIDAD_EST].[DESC_ACTIVIDAD_EST_N2]"
+  },
+  {
+   "rama": "Composición del hogar",
+   "nombre": "Estructura del hogar",
+   "clave": "L_[ESTRUCTURA_HOGAR].[DESC_ESTRUCTURA_HOGAR]"
+  },
+  {
+   "rama": "Composición del hogar",
+   "nombre": "Nº de familias en el hogar",
+   "clave": "L_[N_FAMILIAS_HOGAR].[DESC_N_FAMILIAS_HOGAR]"
+  },
+  {
+   "rama": "Composición del hogar",
+   "nombre": "Nº de núcleos en el hogar",
+   "clave": "L_[N_NUCLEOS_HOGAR].[DESC_N_NUCLEOS_HOGAR]"
+  },
+  {
+   "rama": "Composición del hogar",
+   "nombre": "Tipo de hogar",
+   "clave": "L_[TIPO_HOGAR].[DESC_TIPO_HOGAR]"
+  },
+  {
+   "rama": "Composición del hogar",
+   "nombre": "Tamaño del hogar",
+   "clave": "L_[MIEMBROS_HOGAR].[DESC_MIEMBROS_HOGAR]"
+  },
+  {
+   "rama": "Características básicas",
+   "nombre": "Tipo de núcleo",
+   "clave": "L_[TIPO_NUCLEO].[DESC_TIPO_NUCLEO]"
+  },
+  {
+   "rama": "Características básicas",
+   "nombre": "Tamaño del núcleo",
+   "clave": "L_[TAMANYO_NUCLEO].[DESC_TAMANYO_NUCLEO]"
+  },
+  {
+   "rama": "Características básicas",
+   "nombre": "Nº de hijos del núcleo",
+   "clave": "L_[N_HIJOS].[DESC_N_HIJOS]"
+  },
+  {
+   "rama": "Características de la pareja",
+   "nombre": "Tipo de pareja (de hecho o de derecho)",
+   "clave": "L_[TIPO_PAREJA_CIVIL].[DESC_TIPO_PAREJA_CIVIL]"
+  },
+  {
+   "rama": "Características de la pareja",
+   "nombre": "Tipo de pareja (mismo sexo, distinto sexo)",
+   "clave": "L_[TIPO_PAREJA_SEXO].[DESC_TIPO_PAREJA_SEXO]"
+  },
+  {
+   "rama": "Otros datos de la vivienda",
+   "nombre": "Nº de habitaciones",
+   "clave": "L_[N_HABITACIONES_VIV].[DESC_N_HABITACIONES_VIV]"
+  },
+  {
+   "rama": "Otros datos de la vivienda",
+   "nombre": "Superficie útil de la vivienda",
+   "clave": "L_[SUPERFICIE_VIV].[DESC_SUPERFICIE_VIV]"
+  },
+  {
+   "rama": "Otros datos de la vivienda",
+   "nombre": "Régimen de tenencia (agregado)",
+   "clave": "L_[TENENCIA_VIV].[DESC_TENENCIA_VIV_N1]"
+  },
+  {
+   "rama": "Otros datos de la vivienda",
+   "nombre": "Régimen de tenencia (detalle)",
+   "clave": "L_[TENENCIA_VIV].[DESC_TENENCIA_VIV_N2]"
+  },
+  {
+   "rama": "Instalaciones de la vivienda",
+   "nombre": "Calefacción (sí o no)",
+   "clave": "L_[CALEFACCION].[DESC_CALEFACCION_N1]"
+  },
+  {
+   "rama": "Instalaciones de la vivienda",
+   "nombre": "Tipo de calefacción (detalle)",
+   "clave": "L_[CALEFACCION].[DESC_CALEFACCION_N2]"
+  },
+  {
+   "rama": "Instalaciones de la vivienda",
+   "nombre": "Acceso a Internet",
+   "clave": "L_[INTERNET].[DESC_INTERNET]"
+  },
+  {
+   "rama": "Instalaciones de la vivienda",
+   "nombre": "Sistema de suministro de agua",
+   "clave": "L_[AGUA].[DESC_AGUA]"
+  },
+  {
+   "rama": "Datos básicos del edificio",
+   "nombre": "Nº de plantas sobre rasante",
+   "clave": "L_[PLANTAS_S_RASANTE].[DESC_PLANTAS_S_RASANTE]"
+  },
+  {
+   "rama": "Datos básicos del edificio",
+   "nombre": "Año de construcción (agregado)",
+   "clave": "L_[ANIO_CONSTRUCCION].[DESC_ANIO_CONSTRUCCION_N1]"
+  },
+  {
+   "rama": "Datos básicos del edificio",
+   "nombre": "Año de construcción (detalle)",
+   "clave": "L_[ANIO_CONSTRUCCION].[DESC_ANIO_CONSTRUCCION_N2]"
+  },
+  {
+   "rama": "Datos básicos del edificio",
+   "nombre": "Estado del edificio",
+   "clave": "L_[ESTADO_EDIFICIO].[DESC_ESTADO_EDIFICIO]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Ascensor",
+   "clave": "L_[ASCENSOR].[DESC_ASCENSOR]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Accesibilidad",
+   "clave": "L_[ACCESIBILIDAD].[DESC_ACCESIBILIDAD]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Disponibilidad de garaje",
+   "clave": "L_[GARAJE].[DESC_GARAJE]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Gas",
+   "clave": "L_[GAS].[DESC_GAS]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Tendido telefónico",
+   "clave": "L_[TELEFONO].[DESC_TELEFONO]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Agua caliente central",
+   "clave": "L_[AGUA_CALIENTE].[DESC_AGUA_CALIENTE]"
+  },
+  {
+   "rama": "Instalaciones",
+   "nombre": "Evacuación de aguas residuales",
+   "clave": "L_[RESIDUAL].[DESC_RESIDUAL]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Convivencia con el cónyuge o pareja",
+   "clave": "L_[I_CON].[DESC_I_CON]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Convivencia con el padre",
+   "clave": "L_[I_PAD].[DESC_I_PAD]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Convivencia con la madre",
+   "clave": "L_[I_MAD].[DESC_I_MAD]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Convivencia con otro pariente",
+   "clave": "L_[I_OPA].[DESC_I_OPA]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Ha tenido hijos",
+   "clave": "L_[HIJOS].[DESC_HIJOS]"
+  },
+  {
+   "rama": "Datos de la persona",
+   "nombre": "Nº de hijos de la mujer",
+   "clave": "L_[NHIJOS2].[DESC_NHIJOS2]"
+  },
+  {
+   "rama": "Tareas no remuneradas",
+   "nombre": "Cuidar a un menor de 15 años",
+   "clave": "L_[TAREA1].[DESC_TAREA1]"
+  },
+  {
+   "rama": "Tareas no remuneradas",
+   "nombre": "Cuidar a una persona con problemas salud",
+   "clave": "L_[TAREA2].[DESC_TAREA2]"
+  },
+  {
+   "rama": "Tareas no remuneradas",
+   "nombre": "Tareas benéficas o voluntariado social",
+   "clave": "L_[TAREA3].[DESC_TAREA3]"
+  },
+  {
+   "rama": "Tareas no remuneradas",
+   "nombre": "Encargarse de la mayor parte de las tareas domésticas de su hogar",
+   "clave": "L_[TAREA4].[DESC_TAREA4]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Pasado más de 14 noches en segundo municipio",
+   "clave": "L_[DIAS_2_VIV_14].[DESC_DIAS_2_VIV_14]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "CC.AA. del segundo municipio",
+   "clave": "L_[LOCA_2_VIV].[DESC_LOCA_2_VIV_N1]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Tamaño del segundo municipio",
+   "clave": "L_[TAMANYO_2_VIV].[DESC_TAMANYO_2_VIV]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Relación entre lugar de residencia y segundo municipio",
+   "clave": "L_[REL_2_VIV_LR].[DESC_REL_2_VIV_LR]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Número de noches en segundo municipio",
+   "clave": "L_[DIAS_2_VIV].[DESC_DIAS_2_VIV]"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Disponibilidad de vivienda en segundo municipio",
+   "clave": "L_[DISPONIBILIDAD_2_VIV].[DESC_DISPONIBILIDAD_2_VIV]"
+  },
+  {
+   "rama": "Edad",
+   "nombre": "Edad en grandes grupos",
+   "clave": "L_[GRAN_GRUPO_EDAD].[DESC_GRAN_GRUPO_EDAD]"
+  },
+  {
+   "rama": "Edad",
+   "nombre": "Edad (grupos quinquenales)",
+   "clave": "L_[GRUPO_Q_EDAD].[DESC_GRUPO_Q_EDAD]"
+  },
+  {
+   "rama": "Nacionalidad",
+   "nombre": "Nacionalidad (española/extranjera)",
+   "clave": "L_[NACIONALIDAD].[DESC_NACIONALIDAD_N1]"
+  },
+  {
+   "rama": "Nacionalidad",
+   "nombre": "Nacionalidad (grandes grupos)",
+   "clave": "L_[NACIONALIDAD].[DESC_NACIONALIDAD_N2]"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "CC.AA. de nacimiento",
+   "clave": "L_[LUGAR_NAC_NAC].[DESC_LUGAR_NAC_NAC_N1]"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "Tamaño de municipio de nacimiento",
+   "clave": "L_[TAMANYO_LN].[DESC_TAMANYO_LN]"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "Lugar de nacimiento (España/Extranjero)",
+   "clave": "L_[LUGAR_NAC_EXT].[DESC_LUGAR_NAC_EXT_N1]"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "País de nacimiento (grandes grupos)",
+   "clave": "L_[LUGAR_NAC_EXT].[DESC_LUGAR_NAC_EXT_N2]"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "Relación entre lugar de nacimiento y residencia",
+   "clave": "L_[REL_LN_LR].[DESC_REL_LN_LR]"
+  },
+  {
+   "rama": "Residencia actual",
+   "nombre": "Tamaño de municipio de residencia",
+   "clave": "L_[TAMANYO].[DESC_TAMANYO]"
+  },
+  {
+   "rama": "Última residencia anterior",
+   "nombre": "CC.AA. de residencia anterior",
+   "clave": "L_[ULT_RESI_ANT].[DESC_ULT_RESI_ANT_N1]"
+  },
+  {
+   "rama": "Última residencia anterior",
+   "nombre": "Tamaño de municipio de residencia anterior",
+   "clave": "L_[TAMANYO_ANT].[DESC_TAMANYO_ANT]"
+  },
+  {
+   "rama": "Última residencia anterior",
+   "nombre": "País de residencia anterior (grandes grupos)",
+   "clave": "L_[PAIS_ANT].[DESC_PAIS_ANT]"
+  },
+  {
+   "rama": "Última residencia anterior",
+   "nombre": "Relación entre residencia anterior y actual",
+   "clave": "L_[REL_LR_ANT].[DESC_REL_LR_ANT]"
+  },
+  {
+   "rama": "Residencia en 2010",
+   "nombre": "CC.AA. de residencia en 2010",
+   "clave": "L_[RESI_2010].[DESC_RESI_2010_N1]"
+  },
+  {
+   "rama": "Residencia en 2010",
+   "nombre": "Tamaño de municipio de residencia en 2010",
+   "clave": "L_[TAMANYO_2010].[DESC_TAMANYO_2010]"
+  },
+  {
+   "rama": "Residencia en 2010",
+   "nombre": "País de residencia en 2010 (grandes grupos)",
+   "clave": "L_[PAIS_UNANO].[DESC_PAIS_UNANO]"
+  },
+  {
+   "rama": "Residencia en 2010",
+   "nombre": "Relación entre residencia en 2010 y actual",
+   "clave": "L_[REL_LR_2010].[DESC_REL_LR_2010]"
+  }
+ ],
+ "descartadas": [
+  {
+   "rama": "Datos demográficos básicos",
+   "nombre": "Año de nacimiento",
+   "clave": "L_[ANYO_NACIMIENTO].[DESC_ANYO_NACIMIENTO]",
+   "motivo": "99 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Edad",
+   "nombre": "Edad año a año",
+   "clave": "L_[EDAD].[DESC_EDAD]",
+   "motivo": "99 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Nacionalidad",
+   "nombre": "País de nacionalidad",
+   "clave": "L_[NACIONALIDAD].[DESC_NACIONALIDAD_N3]",
+   "motivo": "país en detalle, se suprime casi todo"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "Provincia de nacimiento",
+   "clave": "L_[LUGAR_NAC_NAC].[DESC_LUGAR_NAC_NAC_N2]",
+   "motivo": "30-50 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Lugar de nacimiento",
+   "nombre": "País de nacimiento",
+   "clave": "L_[LUGAR_NAC_EXT].[DESC_LUGAR_NAC_EXT_N3]",
+   "motivo": "país en detalle, se suprime casi todo"
+  },
+  {
+   "rama": "Última residencia anterior",
+   "nombre": "Provincia de residencia anterior",
+   "clave": "L_[ULT_RESI_ANT].[DESC_ULT_RESI_ANT_N2]",
+   "motivo": "30-50 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Residencia en 2010",
+   "nombre": "Provincia de residencia en 2010",
+   "clave": "L_[RESI_2010].[DESC_RESI_2010_N2]",
+   "motivo": "30-50 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Residencia en 2001",
+   "nombre": "Provincia de residencia en 2001",
+   "clave": "L_[RESI_2001].[DESC_RESI_2001_N2]",
+   "motivo": "30-50 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "ESO, Educación Secundaria para adultos",
+   "clave": "L_[EC3].[DESC_EC3]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Programas de Cualificación profesional inicial",
+   "clave": "L_[VARESCUR2].[DESC_VARESCUR2]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Bachillerato",
+   "clave": "L_[EC4].[DESC_EC4]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Grado Medio de FP, de Artes Plásticas y Diseño y de EE. Deportivas o equivalente",
+   "clave": "L_[EC7].[DESC_EC7]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Enseñanzas de escuelas oficiales de idiomas",
+   "clave": "L_[EC5].[DESC_EC5]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Enseñanzas profesionales de música y danza",
+   "clave": "L_[EC6].[DESC_EC6]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Grado Superior de FP, de Artes Plásticas y Diseño y de EE. Deportivas o equivalente",
+   "clave": "L_[EC8].[DESC_EC8]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Diplomatura universitaria, Arquitectura Técnica, Ingeniería Técnica o equivalente",
+   "clave": "L_[EC9].[DESC_EC9]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Estudios de Grado Universitario y de Enseñanzas Artísticas y equivalentes",
+   "clave": "L_[VARESCUR9].[DESC_VARESCUR9]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Licenciatura, Arquitectura, Ingeniería o equivalente",
+   "clave": "L_[EC10].[DESC_EC10]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Máster oficial universitario, Especialidades Médicas o análogos",
+   "clave": "L_[EC11].[DESC_EC11]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Doctorado",
+   "clave": "L_[EC12].[DESC_EC12]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Otros cursos de educación reglada (Enseñanzas iniciales para adultos, ...)",
+   "clave": "L_[VARESCUR13].[DESC_VARESCUR13]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Cursos de formación de los Servicios Públicos de Empleo",
+   "clave": "L_[EC13].[DESC_EC13]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Totales cursando cada tipo de estudios",
+   "nombre": "Otros cursos de formación no reglados",
+   "clave": "L_[EC15].[DESC_EC15]",
+   "motivo": "subtotales de estudios, redundantes con nivel de estudios"
+  },
+  {
+   "rama": "Segundo municipio",
+   "nombre": "Provincia del segundo municipio",
+   "clave": "L_[LOCA_2_VIV].[DESC_LOCA_2_VIV_N2]",
+   "motivo": "30-50 categorías, se suprimen casi todas"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Estado civil de la madre",
+   "clave": "L_[ECIVMAD].[DESC_ECIVMAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Edad de la madre (grupos quinquenales)",
+   "clave": "L_[EDADMAD22].[DESC_EDADMAD22]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Lugar de nacimiento de la madre (España/Extranjero)",
+   "clave": "L_[LUGAR_NAC_MAD].[DESC_LUGAR_NAC_MAD_N1]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "País de nacimiento de la madre (grandes grupos)",
+   "clave": "L_[LUGAR_NAC_MAD].[DESC_LUGAR_NAC_MAD_N2]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Nacionalidad de la madre (española/extranjera)",
+   "clave": "L_[NACIMAD3].[DESC_NACIMAD3]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Nivel de estudios de la madre (grados)",
+   "clave": "L_[ESTUMAD].[DESC_ESTUMAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Relación preferente con la actividad de la madre (detalle)",
+   "clave": "L_[SITUMAD].[DESC_SITUMAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos de la madre",
+   "nombre": "Situación profesional de la madre",
+   "clave": "L_[SITPMAD].[DESC_SITPMAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Estado civil del padre",
+   "clave": "L_[ECIVPAD].[DESC_ECIVPAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Edad del padre (grupos quinquenales)",
+   "clave": "L_[EDADPAD22].[DESC_EDADPAD22]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Lugar de nacimiento del padre (España/Extranjero)",
+   "clave": "L_[LUGAR_NAC_PAD].[DESC_LUGAR_NAC_PAD_N1]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "País de nacimiento del padre (grandes grupos)",
+   "clave": "L_[LUGAR_NAC_PAD].[DESC_LUGAR_NAC_PAD_N2]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Nacionalidad del padre (española/extranjera)",
+   "clave": "L_[NACIPAD3].[DESC_NACIPAD3]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Nivel de estudios del padre (grados)",
+   "clave": "L_[ESTUPAD].[DESC_ESTUPAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Relación preferente con la actividad del padre (detalle)",
+   "clave": "L_[SITUPAD].[DESC_SITUPAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del padre",
+   "nombre": "Situación profesional del padre",
+   "clave": "L_[SITPPAD].[DESC_SITPPAD]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Estado civil del cónyuge o pareja",
+   "clave": "L_[ECIVCON].[DESC_ECIVCON]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Edad del cónyuge o pareja (grupos quinquenales)",
+   "clave": "L_[EDADCON22].[DESC_EDADCON22]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Lugar de nacimiento del cónyuge o pareja (España/Extranjero)",
+   "clave": "L_[LUGAR_NAC_CON].[DESC_LUGAR_NAC_CON_N1]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "País de nacimiento del cónyuge o pareja (grandes grupos)",
+   "clave": "L_[LUGAR_NAC_CON].[DESC_LUGAR_NAC_CON_N2]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Nacionalidad del cónyuge o pareja (española/extranjera)",
+   "clave": "L_[NACICON3].[DESC_NACICON3]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Nivel de estudios del cónyuge o pareja (grados)",
+   "clave": "L_[ESTUCON].[DESC_ESTUCON]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Relación preferente con la actividad del cónyuge o pareja (detalle)",
+   "clave": "L_[SITUCON].[DESC_SITUCON]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Datos del cónyuge o pareja",
+   "nombre": "Situación profesional del cónyuge o pareja",
+   "clave": "L_[SITPCON].[DESC_SITPCON]",
+   "motivo": "datos de terceros"
+  },
+  {
+   "rama": "Ocupación profesional",
+   "nombre": "Ocupación (a 2 dígitos de la CNO11)",
+   "clave": "L_[OCUPA_PROF].[DESC_OCUPA_PROF_N2]",
+   "motivo": "clasificación a 2-3 dígitos, se suprime casi todo"
+  },
+  {
+   "rama": "Ocupación profesional",
+   "nombre": "Ocupación (a 3 dígitos de la CNO11)",
+   "clave": "L_[OCUPA_PROF].[DESC_OCUPA_PROF_N3]",
+   "motivo": "clasificación a 2-3 dígitos, se suprime casi todo"
+  },
+  {
+   "rama": "Actividad del establecimiento",
+   "nombre": "Actividad del establecimiento (a 2 dígitos de la CNAE09)",
+   "clave": "L_[ACTIVIDAD_EST].[DESC_ACTIVIDAD_EST_N3]",
+   "motivo": "clasificación a 2-3 dígitos, se suprime casi todo"
+  },
+  {
+   "rama": "Actividad del establecimiento",
+   "nombre": "Actividad del establecimiento (a 3 dígitos de la CNAE09)",
+   "clave": "L_[ACTIVIDAD_EST].[DESC_ACTIVIDAD_EST_N4]",
+   "motivo": "clasificación a 2-3 dígitos, se suprime casi todo"
+  }
+ ]
+}
