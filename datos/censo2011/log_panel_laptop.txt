@@ -1,0 +1,200 @@
+83 variables x 489 VUPACI | 120 VUPACI hechos | 369 pendientes
+estimación: 41.9 horas
+83 variables x 489 VUPACI | 120 VUPACI hechos | 369 pendientes
+estimación: 41.9 horas
+[1/369] VUPACI 121: 83/83 variables en 552s | faltan 56.4 h
+[2/369] VUPACI 122: 83/83 variables en 518s | faltan 54.5 h
+[3/369] VUPACI 123: 83/83 variables en 533s | faltan 54.3 h
+[4/369] VUPACI 124: 83/83 variables en 562s | faltan 54.9 h
+[5/369] VUPACI 125: 83/83 variables en 527s | faltan 54.4 h
+    · registro: 125 hechos, 72675 filas, respaldo guardado, totales ok
+[6/369] VUPACI 126: 83/83 variables en 572s | faltan 54.9 h
+    VUPACI 127: sólo 0/83 variables, vuelta 1
+    VUPACI 127: sólo 0/83 variables, vuelta 2
+    sin conexión con el INE, reintento en 30s
+    sin conexión con el INE, reintento en 60s
+    sin conexión con el INE, reintento en 120s
+    sin conexión con el INE, reintento en 240s
+    sin conexión con el INE, reintento en 480s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    red de vuelta tras 206 min
+    VUPACI 127: sólo 0/83 variables, vuelta 3
+[7/369] VUPACI 127: 83/83 variables en 13157s | faltan 235.9 h
+[8/369] VUPACI 128: 83/83 variables en 363s | faltan 210.4 h
+[9/369] VUPACI 129: 83/83 variables en 379s | faltan 190.7 h
+[10/369] VUPACI 130: 83/83 variables en 384s | faltan 175.0 h
+    · registro: 130 hechos, 75726 filas, respaldo guardado, totales ok
+[11/369] VUPACI 131: 83/83 variables en 372s | faltan 162.0 h
+[12/369] VUPACI 132: 82/83 variables en 393s | faltan 151.3 h | fallaron: ['Tipo de calefacción (detalle)']
+    VUPACI 133: totales inconsistentes [825, 14785], se descarta y se repite
+[13/369] VUPACI 133: 83/83 variables en 785s | faltan 145.3 h
+[14/369] VUPACI 134: 83/83 variables en 394s | faltan 137.3 h
+[15/369] VUPACI 135: 83/83 variables en 412s | faltan 130.5 h
+    · registro: 135 hechos, 78736 filas, respaldo guardado, totales ok
+[16/369] VUPACI 136: 83/83 variables en 401s | faltan 124.4 h
+[17/369] VUPACI 137: 83/83 variables en 412s | faltan 119.2 h
+[18/369] VUPACI 138: 83/83 variables en 428s | faltan 114.6 h
+[19/369] VUPACI 139: 83/83 variables en 405s | faltan 110.3 h
+[20/369] VUPACI 140: 83/83 variables en 441s | faltan 106.6 h
+    · registro: 140 hechos, 81747 filas, respaldo guardado, totales ok
+[21/369] VUPACI 141: 82/83 variables en 429s | faltan 103.2 h | fallaron: ['Nº de plantas sobre rasante']
+[22/369] VUPACI 142: 83/83 variables en 437s | faltan 100.2 h
+[23/369] VUPACI 143: 82/83 variables en 444s | faltan 97.4 h | fallaron: ['Relación preferente con la actividad (detalle)']
+[24/369] VUPACI 144: 83/83 variables en 468s | faltan 94.9 h
+    VUPACI 145: totales inconsistentes [1175, 9535], se descarta y se repite
+[25/369] VUPACI 145: 83/83 variables en 904s | faltan 94.3 h
+    · registro: 145 hechos, 84749 filas, respaldo guardado, totales ok
+[26/369] VUPACI 146: 83/83 variables en 456s | faltan 92.1 h
+83 variables x 489 VUPACI | 146 VUPACI hechos | 343 pendientes
+estimación: 38.9 horas
+[1/343] VUPACI 147: 83/83 variables en 457s | faltan 43.4 h
+[2/343] VUPACI 148: 83/83 variables en 479s | faltan 44.4 h
+[3/343] VUPACI 149: 83/83 variables en 476s | faltan 44.5 h
+[4/343] VUPACI 150: 83/83 variables en 488s | faltan 44.8 h
+[5/343] VUPACI 151: 83/83 variables en 493s | faltan 45.0 h
+    · registro: 151 hechos, 88340 filas, respaldo guardado, totales ok
+[6/343] VUPACI 152: 83/83 variables en 505s | faltan 45.3 h
+[7/343] VUPACI 153: 83/83 variables en 502s | faltan 45.4 h
+[8/343] VUPACI 154: 82/83 variables en 521s | faltan 45.6 h | fallaron: ['Tamaño de municipio de nacimiento']
+[9/343] VUPACI 155: 81/83 variables en 514s | faltan 45.8 h | fallaron: ['Acude a centro escolar', 'Estado del edificio']
+83 variables x 489 VUPACI | 155 VUPACI hechos | 334 pendientes
+estimación: 37.9 horas
+[1/334] VUPACI 156: 81/83 variables en 576s | faltan 53.2 h | faltaron 2: ['Tipo de estudios completados', 'CC.AA. de residencia anterior']
+    VUPACI 157: totales inconsistentes [985, 10960], se descarta y se repite
+[2/334] VUPACI 157: 83/83 variables en 1073s | faltan 76.0 h
+    VUPACI 158: totales inconsistentes [1095, 10195], se descarta y se repite
+[3/334] VUPACI 158: 82/83 variables en 1123s | faltan 84.9 h | faltaron 1: ['Situación profesional']
+[4/334] VUPACI 159: 83/83 variables en 576s | faltan 76.7 h
+    VUPACI 160: sólo 32/83 variables, vuelta 1
+    VUPACI 160: sólo 0/83 variables, vuelta 2
+    [09:40:22] el INE no responde (HTTP 404), reintento en 30s
+    [09:40:53] el INE volvió tras 0 min
+[5/334] VUPACI 160: 83/83 variables en 1014s | faltan 79.7 h
+    · registro: 160 hechos, 93661 filas, respaldo guardado, totales ok
+    VUPACI 161: sólo 0/83 variables, vuelta 1
+    VUPACI 161: sólo 0/83 variables, vuelta 2
+    [09:54:54] el INE no responde (HTTP 500), reintento en 30s
+    [09:55:25] el INE no responde (HTTP 500), reintento en 60s
+    [09:56:27] el INE no responde (HTTP 500), reintento en 120s
+    [09:58:28] el INE no responde (HTTP 500), reintento en 240s
+    [10:02:29] el INE no responde (HTTP 500), reintento en 480s
+    [10:10:30] el INE no responde (HTTP 500), reintento en 600s
+83 variables x 489 VUPACI | 160 VUPACI hechos | 329 pendientes
+estimación: 37.3 horas
+Traceback (most recent call last):
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/descargar_panel_2011.py", line 306, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/descargar_panel_2011.py", line 215, in main
+    sesion = ine.nueva_sesion()
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/ine_censo2011.py", line 61, in nueva_sesion
+    _get(s, BASE + "Inicio.do")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/ine_censo2011.py", line 53, in _get
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://www.ine.es/censos2011/tablas/Inicio.do
+83 variables x 489 VUPACI | 160 VUPACI hechos | 329 pendientes
+estimación: 37.3 horas
+    [10:19:34] el INE no responde (HTTP 500), reintento en 2s
+    [10:19:37] el INE volvió tras 2s
+    [10:19:38] no se pudo abrir sesión (HTTPError), intento 1/20
+    [10:19:44] el INE no responde (HTTP 500), reintento en 2s
+    [10:19:47] el INE volvió tras 2s
+    [10:19:48] no se pudo abrir sesión (HTTPError), intento 2/20
+    [10:19:59] el INE no responde (HTTP 500), reintento en 2s
+    [10:20:03] el INE volvió tras 2s
+    [10:20:04] no se pudo abrir sesión (HTTPError), intento 3/20
+    [10:20:20] el INE no responde (HTTP 500), reintento en 2s
+    [10:20:23] el INE volvió tras 2s
+    [10:20:24] no se pudo abrir sesión (HTTPError), intento 4/20
+    [10:20:45] el INE no responde (HTTP 500), reintento en 2s
+    [10:20:48] el INE volvió tras 2s
+    [10:20:49] no se pudo abrir sesión (HTTPError), intento 5/20
+    [10:21:15] el INE no responde (HTTP 500), reintento en 2s
+    [10:21:18] el INE volvió tras 2s
+    [10:21:19] no se pudo abrir sesión (HTTPError), intento 6/20
+    [10:21:50] el INE no responde (HTTP 500), reintento en 2s
+    [10:21:53] el INE volvió tras 2s
+    [10:21:54] no se pudo abrir sesión (HTTPError), intento 7/20
+    [10:22:30] el INE no responde (HTTP 500), reintento en 2s
+    [10:22:33] el INE volvió tras 2s
+    [10:22:35] no se pudo abrir sesión (HTTPError), intento 8/20
+    [10:23:16] el INE no responde (HTTP 500), reintento en 2s
+    [10:23:19] el INE volvió tras 2s
+    [10:23:20] no se pudo abrir sesión (HTTPError), intento 9/20
+    [10:24:06] el INE no responde (HTTP 500), reintento en 2s
+    [10:24:09] el INE volvió tras 2s
+    [10:24:10] no se pudo abrir sesión (HTTPError), intento 10/20
+    [10:25:02] el INE no responde (HTTP 500), reintento en 2s
+    [10:25:05] el INE volvió tras 2s
+    [10:25:06] no se pudo abrir sesión (HTTPError), intento 11/20
+    [10:26:02] el INE no responde (HTTP 500), reintento en 2s
+    [10:26:05] el INE volvió tras 2s
+    [10:26:06] no se pudo abrir sesión (HTTPError), intento 12/20
+    [10:27:07] el INE no responde (HTTP 500), reintento en 2s
+    [10:27:10] el INE volvió tras 2s
+    [10:27:11] no se pudo abrir sesión (HTTPError), intento 13/20
+    [10:28:12] el INE no responde (HTTP 500), reintento en 2s
+    [10:28:15] el INE volvió tras 2s
+    [10:28:16] no se pudo abrir sesión (HTTPError), intento 14/20
+    [10:29:18] el INE no responde (HTTP 500), reintento en 2s
+    [10:29:21] el INE volvió tras 2s
+    [10:29:22] no se pudo abrir sesión (HTTPError), intento 15/20
+    [10:30:23] el INE no responde (HTTP 500), reintento en 2s
+    [10:30:26] el INE volvió tras 2s
+    [10:30:27] no se pudo abrir sesión (HTTPError), intento 16/20
+    [10:31:28] el INE no responde (HTTP 500), reintento en 2s
+    [10:31:31] el INE volvió tras 2s
+    [10:31:32] no se pudo abrir sesión (HTTPError), intento 17/20
+    [10:32:33] el INE no responde (HTTP 500), reintento en 2s
+    [10:32:36] el INE volvió tras 2s
+    [10:32:37] no se pudo abrir sesión (HTTPError), intento 18/20
+    [10:33:38] el INE no responde (HTTP 500), reintento en 2s
+    [10:33:41] el INE volvió tras 2s
+    [10:33:43] no se pudo abrir sesión (HTTPError), intento 19/20
+    [10:34:44] el INE no responde (HTTP 500), reintento en 2s
+    [10:34:47] el INE volvió tras 2s
+    [10:34:49] no se pudo abrir sesión (HTTPError), intento 20/20
+Traceback (most recent call last):
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/descargar_panel_2011.py", line 318, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/descargar_panel_2011.py", line 230, in main
+    sesion, muni = nueva_sesion_firme()
+                   ~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/Mec/Proyectos/academico/Miri/secciones-censales-es/scripts/descargar_panel_2011.py", line 228, in nueva_sesion_firme
+    raise RuntimeError("el INE no dejó abrir sesión tras 20 intentos")
+RuntimeError: el INE no dejó abrir sesión tras 20 intentos
+83 variables x 489 VUPACI | 160 VUPACI hechos | 329 pendientes
+estimación: 37.3 horas
+[1/329] VUPACI 161: 83/83 variables en 356s | faltan 32.4 h
+[2/329] VUPACI 162: 82/83 variables en 349s | faltan 32.0 h | faltaron 1: ['Relación entre residencia anterior y actual']
+[3/329] VUPACI 163: 81/83 variables en 362s | faltan 32.2 h | faltaron 2: ['Nº de hijos de la mujer', 'País de residencia anterior (grandes grupos)']
+    VUPACI 164: totales inconsistentes [9025, 15795], se descarta y se repite
+    VUPACI 164: totales inconsistentes [9025, 11955], se descarta y se repite
+[4/329] VUPACI 164: 82/83 variables en 1126s | faltan 49.5 h | faltaron 1: ['Nº de familias en el hogar']
+[5/329] VUPACI 165: 81/83 variables en 381s | faltan 46.4 h | faltaron 2: ['Relación entre residencia en 2001 y actual', 'Tamaño del segundo municipio']
+    · registro: 165 hechos, 96581 filas, respaldo guardado, totales ok
+83 variables x 489 VUPACI | 165 VUPACI hechos | 324 pendientes
+estimación: 36.8 horas

@@ -1,0 +1,5 @@
+[2026-10-13 23:32:59] caída detectada con 165/489 hechos, relanzando
+    [4/329] VUPACI 164: 82/83 variables en 1126s | faltan 49.5 h | faltaron 1: ['Nº de familias en el hogar']
+    [5/329] VUPACI 165: 81/83 variables en 381s | faltan 46.4 h | faltaron 2: ['Relación entre residencia en 2001 y actual', 'Tamaño del segundo municipio']
+        · registro: 165 hechos, 96581 filas, respaldo guardado, totales ok
+[2026-10-13 23:33:09] relanzada correctamente

@@ -1,0 +1,10 @@
+name: arraigo-madrid
+title: Arraigo residencial en Madrid
+username: emilianogonlas
+account: emilianogonlas
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a12c64-a639-e864-4cc8-82c54dd180e1
+bundleId:
+url: https://connect.posit.cloud/emilianogonlas/content/01a12c64-a639-e864-4cc8-82c54dd180e1
+version: 1

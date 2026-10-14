@@ -1,0 +1,672 @@
+83 variables x 489 VUPACI | 0 VUPACI hechos | 489 pendientes
+estimación: 55.5 horas
+[1/489] VUPACI 0: 83/83 variables en 403s | faltan 54.7 h
+[2/489] VUPACI 1: 83/83 variables en 425s | faltan 56.0 h
+[3/489] VUPACI 2: 83/83 variables en 447s | faltan 57.4 h
+[4/489] VUPACI 3: 83/83 variables en 431s | faltan 57.5 h
+[5/489] VUPACI 4: 83/83 variables en 435s | faltan 57.6 h
+[6/489] VUPACI 5: 83/83 variables en 453s | faltan 58.0 h
+[7/489] VUPACI 6: 83/83 variables en 441s | faltan 58.1 h
+[8/489] VUPACI 7: 83/83 variables en 447s | faltan 58.2 h
+[9/489] VUPACI 8: 83/83 variables en 467s | faltan 58.5 h
+[10/489] VUPACI 9: 83/83 variables en 470s | faltan 58.8 h
+[11/489] VUPACI 10: 83/83 variables en 454s | faltan 58.9 h
+[12/489] VUPACI 11: 83/83 variables en 489s | faltan 59.2 h
+[13/489] VUPACI 12: 83/83 variables en 467s | faltan 59.3 h
+[14/489] VUPACI 13: 83/83 variables en 601s | faltan 60.6 h
+[15/489] VUPACI 14: 83/83 variables en 488s | faltan 60.8 h
+[16/489] VUPACI 15: 83/83 variables en 494s | faltan 60.9 h
+[17/489] VUPACI 16: 83/83 variables en 522s | faltan 61.2 h
+[18/489] VUPACI 17: 81/83 variables en 517s | faltan 61.5 h | fallaron: ['Acude a centro escolar', 'Número de noches en segundo municipio']
+[19/489] VUPACI 18: 83/83 variables en 512s | faltan 61.6 h
+[20/489] VUPACI 19: 83/83 variables en 544s | faltan 62.0 h
+[21/489] VUPACI 20: 83/83 variables en 537s | faltan 62.2 h
+[22/489] VUPACI 21: 35/83 variables en 570s | faltan 62.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[23/489] VUPACI 22: 0/83 variables en 117s | faltan 60.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[24/489] VUPACI 23: 0/83 variables en 119s | faltan 58.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[25/489] VUPACI 24: 0/83 variables en 116s | faltan 56.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[26/489] VUPACI 25: 0/83 variables en 117s | faltan 54.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[27/489] VUPACI 26: 0/83 variables en 115s | faltan 53.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[28/489] VUPACI 27: 0/83 variables en 115s | faltan 51.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[29/489] VUPACI 28: 0/83 variables en 115s | faltan 50.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[30/489] VUPACI 29: 0/83 variables en 115s | faltan 49.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[31/489] VUPACI 30: 0/83 variables en 115s | faltan 47.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[32/489] VUPACI 31: 0/83 variables en 117s | faltan 46.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[33/489] VUPACI 32: 0/83 variables en 115s | faltan 45.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[34/489] VUPACI 33: 0/83 variables en 116s | faltan 44.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[35/489] VUPACI 34: 0/83 variables en 115s | faltan 43.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[36/489] VUPACI 35: 0/83 variables en 115s | faltan 42.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[37/489] VUPACI 36: 0/83 variables en 115s | faltan 41.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[38/489] VUPACI 37: 0/83 variables en 116s | faltan 41.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[39/489] VUPACI 38: 0/83 variables en 115s | faltan 40.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[40/489] VUPACI 39: 0/83 variables en 116s | faltan 39.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[41/489] VUPACI 40: 0/83 variables en 116s | faltan 38.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[42/489] VUPACI 41: 0/83 variables en 116s | faltan 38.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[43/489] VUPACI 42: 0/83 variables en 116s | faltan 37.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[44/489] VUPACI 43: 0/83 variables en 117s | faltan 37.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[45/489] VUPACI 44: 0/83 variables en 115s | faltan 36.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[46/489] VUPACI 45: 0/83 variables en 114s | faltan 35.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[47/489] VUPACI 46: 0/83 variables en 115s | faltan 35.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[48/489] VUPACI 47: 0/83 variables en 115s | faltan 34.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[49/489] VUPACI 48: 0/83 variables en 115s | faltan 34.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[50/489] VUPACI 49: 0/83 variables en 115s | faltan 33.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[51/489] VUPACI 50: 0/83 variables en 115s | faltan 33.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[52/489] VUPACI 51: 0/83 variables en 114s | faltan 32.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[53/489] VUPACI 52: 0/83 variables en 115s | faltan 32.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[54/489] VUPACI 53: 0/83 variables en 115s | faltan 32.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[55/489] VUPACI 54: 0/83 variables en 115s | faltan 31.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[56/489] VUPACI 55: 0/83 variables en 115s | faltan 31.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[57/489] VUPACI 56: 0/83 variables en 115s | faltan 30.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[58/489] VUPACI 57: 0/83 variables en 116s | faltan 30.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[59/489] VUPACI 58: 0/83 variables en 114s | faltan 30.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[60/489] VUPACI 59: 0/83 variables en 115s | faltan 29.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[61/489] VUPACI 60: 0/83 variables en 115s | faltan 29.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[62/489] VUPACI 61: 0/83 variables en 115s | faltan 29.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[63/489] VUPACI 62: 0/83 variables en 115s | faltan 28.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[64/489] VUPACI 63: 0/83 variables en 115s | faltan 28.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[65/489] VUPACI 64: 0/83 variables en 115s | faltan 28.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[66/489] VUPACI 65: 0/83 variables en 114s | faltan 28.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[67/489] VUPACI 66: 0/83 variables en 115s | faltan 27.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[68/489] VUPACI 67: 0/83 variables en 115s | faltan 27.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[69/489] VUPACI 68: 0/83 variables en 116s | faltan 27.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[70/489] VUPACI 69: 0/83 variables en 115s | faltan 26.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[71/489] VUPACI 70: 0/83 variables en 115s | faltan 26.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[72/489] VUPACI 71: 0/83 variables en 114s | faltan 26.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[73/489] VUPACI 72: 0/83 variables en 115s | faltan 26.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[74/489] VUPACI 73: 0/83 variables en 115s | faltan 25.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[75/489] VUPACI 74: 0/83 variables en 115s | faltan 25.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[76/489] VUPACI 75: 0/83 variables en 115s | faltan 25.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[77/489] VUPACI 77: 0/83 variables en 115s | faltan 25.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[78/489] VUPACI 78: 0/83 variables en 115s | faltan 25.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[79/489] VUPACI 79: 0/83 variables en 114s | faltan 24.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[80/489] VUPACI 80: 0/83 variables en 116s | faltan 24.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[81/489] VUPACI 81: 0/83 variables en 116s | faltan 24.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[82/489] VUPACI 82: 0/83 variables en 115s | faltan 24.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[83/489] VUPACI 83: 0/83 variables en 115s | faltan 24.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[84/489] VUPACI 84: 0/83 variables en 116s | faltan 23.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[85/489] VUPACI 85: 0/83 variables en 115s | faltan 23.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[86/489] VUPACI 86: 0/83 variables en 114s | faltan 23.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[87/489] VUPACI 87: 0/83 variables en 115s | faltan 23.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[88/489] VUPACI 88: 0/83 variables en 115s | faltan 23.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[89/489] VUPACI 89: 0/83 variables en 115s | faltan 22.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[90/489] VUPACI 90: 0/83 variables en 115s | faltan 22.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[91/489] VUPACI 91: 0/83 variables en 115s | faltan 22.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[92/489] VUPACI 92: 0/83 variables en 115s | faltan 22.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[93/489] VUPACI 93: 0/83 variables en 114s | faltan 22.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[94/489] VUPACI 94: 0/83 variables en 115s | faltan 22.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[95/489] VUPACI 95: 0/83 variables en 115s | faltan 21.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[96/489] VUPACI 96: 0/83 variables en 115s | faltan 21.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[97/489] VUPACI 97: 0/83 variables en 115s | faltan 21.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[98/489] VUPACI 98: 0/83 variables en 115s | faltan 21.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[99/489] VUPACI 99: 0/83 variables en 115s | faltan 21.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[100/489] VUPACI 100: 0/83 variables en 115s | faltan 21.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[101/489] VUPACI 101: 0/83 variables en 115s | faltan 21.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[102/489] VUPACI 102: 0/83 variables en 117s | faltan 20.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[103/489] VUPACI 103: 0/83 variables en 115s | faltan 20.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[104/489] VUPACI 104: 0/83 variables en 115s | faltan 20.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[105/489] VUPACI 105: 0/83 variables en 115s | faltan 20.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[106/489] VUPACI 106: 0/83 variables en 114s | faltan 20.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[107/489] VUPACI 107: 0/83 variables en 115s | faltan 20.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[108/489] VUPACI 108: 0/83 variables en 115s | faltan 20.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[109/489] VUPACI 109: 0/83 variables en 115s | faltan 20.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[110/489] VUPACI 110: 0/83 variables en 115s | faltan 19.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[111/489] VUPACI 111: 0/83 variables en 115s | faltan 19.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[112/489] VUPACI 112: 0/83 variables en 115s | faltan 19.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[113/489] VUPACI 113: 0/83 variables en 115s | faltan 19.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[114/489] VUPACI 114: 0/83 variables en 115s | faltan 19.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[115/489] VUPACI 115: 0/83 variables en 115s | faltan 19.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[116/489] VUPACI 116: 0/83 variables en 115s | faltan 19.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[117/489] VUPACI 117: 0/83 variables en 115s | faltan 19.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[118/489] VUPACI 118: 0/83 variables en 116s | faltan 18.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[119/489] VUPACI 119: 0/83 variables en 115s | faltan 18.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[120/489] VUPACI 120: 0/83 variables en 114s | faltan 18.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[121/489] VUPACI 121: 0/83 variables en 115s | faltan 18.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[122/489] VUPACI 122: 0/83 variables en 115s | faltan 18.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[123/489] VUPACI 123: 0/83 variables en 116s | faltan 18.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[124/489] VUPACI 124: 0/83 variables en 115s | faltan 18.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[125/489] VUPACI 125: 0/83 variables en 115s | faltan 18.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[126/489] VUPACI 126: 0/83 variables en 114s | faltan 18.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[127/489] VUPACI 127: 0/83 variables en 114s | faltan 18.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[128/489] VUPACI 128: 0/83 variables en 115s | faltan 17.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[129/489] VUPACI 129: 0/83 variables en 116s | faltan 17.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[130/489] VUPACI 130: 0/83 variables en 115s | faltan 17.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[131/489] VUPACI 131: 0/83 variables en 115s | faltan 17.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[132/489] VUPACI 132: 0/83 variables en 115s | faltan 17.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[133/489] VUPACI 133: 0/83 variables en 114s | faltan 17.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[134/489] VUPACI 134: 0/83 variables en 115s | faltan 17.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[135/489] VUPACI 135: 0/83 variables en 115s | faltan 17.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[136/489] VUPACI 136: 0/83 variables en 116s | faltan 17.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[137/489] VUPACI 137: 0/83 variables en 115s | faltan 17.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[138/489] VUPACI 138: 0/83 variables en 115s | faltan 17.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[139/489] VUPACI 139: 0/83 variables en 115s | faltan 16.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[140/489] VUPACI 140: 0/83 variables en 114s | faltan 16.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[141/489] VUPACI 141: 0/83 variables en 116s | faltan 16.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[142/489] VUPACI 142: 0/83 variables en 115s | faltan 16.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[143/489] VUPACI 143: 0/83 variables en 115s | faltan 16.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[144/489] VUPACI 144: 0/83 variables en 116s | faltan 16.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[145/489] VUPACI 145: 0/83 variables en 115s | faltan 16.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[146/489] VUPACI 146: 0/83 variables en 116s | faltan 16.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[147/489] VUPACI 147: 0/83 variables en 114s | faltan 16.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[148/489] VUPACI 148: 0/83 variables en 115s | faltan 16.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[149/489] VUPACI 149: 0/83 variables en 116s | faltan 16.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[150/489] VUPACI 150: 0/83 variables en 115s | faltan 15.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[151/489] VUPACI 151: 0/83 variables en 119s | faltan 15.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[152/489] VUPACI 152: 0/83 variables en 118s | faltan 15.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[153/489] VUPACI 153: 0/83 variables en 114s | faltan 15.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[154/489] VUPACI 154: 0/83 variables en 116s | faltan 15.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[155/489] VUPACI 155: 0/83 variables en 116s | faltan 15.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[156/489] VUPACI 156: 0/83 variables en 115s | faltan 15.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[157/489] VUPACI 157: 0/83 variables en 115s | faltan 15.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[158/489] VUPACI 158: 0/83 variables en 115s | faltan 15.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[159/489] VUPACI 159: 0/83 variables en 114s | faltan 15.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[160/489] VUPACI 160: 0/83 variables en 115s | faltan 15.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[161/489] VUPACI 161: 0/83 variables en 115s | faltan 15.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[162/489] VUPACI 162: 0/83 variables en 115s | faltan 15.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[163/489] VUPACI 163: 0/83 variables en 116s | faltan 14.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[164/489] VUPACI 164: 0/83 variables en 115s | faltan 14.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[165/489] VUPACI 165: 0/83 variables en 116s | faltan 14.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[166/489] VUPACI 166: 0/83 variables en 115s | faltan 14.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[167/489] VUPACI 167: 0/83 variables en 114s | faltan 14.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[168/489] VUPACI 168: 0/83 variables en 115s | faltan 14.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[169/489] VUPACI 169: 0/83 variables en 116s | faltan 14.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[170/489] VUPACI 170: 0/83 variables en 116s | faltan 14.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[171/489] VUPACI 171: 0/83 variables en 115s | faltan 14.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[172/489] VUPACI 172: 0/83 variables en 116s | faltan 14.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[173/489] VUPACI 173: 0/83 variables en 114s | faltan 14.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[174/489] VUPACI 174: 0/83 variables en 115s | faltan 14.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[175/489] VUPACI 175: 0/83 variables en 115s | faltan 14.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[176/489] VUPACI 176: 0/83 variables en 115s | faltan 14.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[177/489] VUPACI 177: 0/83 variables en 115s | faltan 14.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[178/489] VUPACI 178: 0/83 variables en 115s | faltan 13.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[179/489] VUPACI 179: 0/83 variables en 115s | faltan 13.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[180/489] VUPACI 180: 0/83 variables en 114s | faltan 13.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[181/489] VUPACI 181: 0/83 variables en 115s | faltan 13.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[182/489] VUPACI 182: 0/83 variables en 115s | faltan 13.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[183/489] VUPACI 183: 0/83 variables en 115s | faltan 13.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[184/489] VUPACI 184: 0/83 variables en 115s | faltan 13.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[185/489] VUPACI 185: 0/83 variables en 116s | faltan 13.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[186/489] VUPACI 186: 0/83 variables en 115s | faltan 13.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[187/489] VUPACI 187: 0/83 variables en 114s | faltan 13.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[188/489] VUPACI 188: 0/83 variables en 115s | faltan 13.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[189/489] VUPACI 189: 0/83 variables en 115s | faltan 13.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[190/489] VUPACI 190: 0/83 variables en 117s | faltan 13.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[191/489] VUPACI 191: 0/83 variables en 115s | faltan 13.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[192/489] VUPACI 192: 0/83 variables en 115s | faltan 13.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[193/489] VUPACI 193: 0/83 variables en 115s | faltan 12.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[194/489] VUPACI 194: 0/83 variables en 114s | faltan 12.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[195/489] VUPACI 195: 0/83 variables en 115s | faltan 12.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[196/489] VUPACI 196: 0/83 variables en 116s | faltan 12.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[197/489] VUPACI 197: 0/83 variables en 115s | faltan 12.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[198/489] VUPACI 198: 0/83 variables en 115s | faltan 12.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[199/489] VUPACI 199: 0/83 variables en 122s | faltan 12.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[200/489] VUPACI 200: 0/83 variables en 114s | faltan 12.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[201/489] VUPACI 201: 0/83 variables en 115s | faltan 12.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[202/489] VUPACI 202: 0/83 variables en 343s | faltan 12.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[203/489] VUPACI 203: 0/83 variables en 115s | faltan 12.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[204/489] VUPACI 204: 0/83 variables en 117s | faltan 12.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[205/489] VUPACI 205: 0/83 variables en 114s | faltan 12.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[206/489] VUPACI 206: 0/83 variables en 116s | faltan 12.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[207/489] VUPACI 207: 0/83 variables en 115s | faltan 12.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[208/489] VUPACI 208: 0/83 variables en 115s | faltan 12.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[209/489] VUPACI 209: 0/83 variables en 116s | faltan 12.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[210/489] VUPACI 210: 0/83 variables en 115s | faltan 12.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[211/489] VUPACI 211: 0/83 variables en 115s | faltan 12.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[212/489] VUPACI 212: 0/83 variables en 114s | faltan 11.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[213/489] VUPACI 213: 0/83 variables en 116s | faltan 11.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[214/489] VUPACI 214: 0/83 variables en 115s | faltan 11.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[215/489] VUPACI 215: 0/83 variables en 115s | faltan 11.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[216/489] VUPACI 216: 0/83 variables en 115s | faltan 11.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[217/489] VUPACI 217: 0/83 variables en 115s | faltan 11.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[218/489] VUPACI 218: 0/83 variables en 114s | faltan 11.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[219/489] VUPACI 219: 0/83 variables en 115s | faltan 11.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[220/489] VUPACI 220: 0/83 variables en 115s | faltan 11.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[221/489] VUPACI 221: 0/83 variables en 119s | faltan 11.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[222/489] VUPACI 222: 0/83 variables en 116s | faltan 11.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[223/489] VUPACI 223: 0/83 variables en 115s | faltan 11.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[224/489] VUPACI 224: 0/83 variables en 115s | faltan 11.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[225/489] VUPACI 225: 0/83 variables en 114s | faltan 11.2 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[226/489] VUPACI 226: 0/83 variables en 115s | faltan 11.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[227/489] VUPACI 227: 0/83 variables en 118s | faltan 11.1 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[228/489] VUPACI 228: 0/83 variables en 116s | faltan 11.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[229/489] VUPACI 229: 0/83 variables en 115s | faltan 11.0 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[230/489] VUPACI 230: 0/83 variables en 115s | faltan 10.9 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[231/489] VUPACI 231: 0/83 variables en 116s | faltan 10.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[232/489] VUPACI 232: 0/83 variables en 116s | faltan 10.8 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[233/489] VUPACI 233: 0/83 variables en 115s | faltan 10.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[234/489] VUPACI 234: 0/83 variables en 116s | faltan 10.7 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[235/489] VUPACI 235: 0/83 variables en 115s | faltan 10.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[236/489] VUPACI 236: 0/83 variables en 115s | faltan 10.6 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[237/489] VUPACI 237: 0/83 variables en 115s | faltan 10.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[238/489] VUPACI 238: 0/83 variables en 115s | faltan 10.5 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[239/489] VUPACI 239: 0/83 variables en 114s | faltan 10.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[240/489] VUPACI 240: 0/83 variables en 115s | faltan 10.4 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[241/489] VUPACI 241: 0/83 variables en 117s | faltan 10.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[242/489] VUPACI 242: 0/83 variables en 116s | faltan 10.3 h | fallaron: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+    VUPACI 243: geografía falló (('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/scripts/descargar_panel_2011.py", line 110, in main
+    fijar_geografia(sesion, grupos[v], muni)
+  File "/home/emiliano/censo-madrid/scripts/descargar_panel_2011.py", line 44, in fijar_geografia
+    ine._post(sesion, ine.BASE + "Wizard.do", {
+  File "/home/emiliano/censo-madrid/scripts/ine_censo2011.py", line 41, in _post
+    r = sesion.post(
+        ^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/scripts/descargar_panel_2011.py", line 153, in <module>
+    main()
+  File "/home/emiliano/censo-madrid/scripts/descargar_panel_2011.py", line 116, in main
+    sesion = ine.nueva_sesion()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/scripts/ine_censo2011.py", line 61, in nueva_sesion
+    _get(s, BASE + "Inicio.do")
+  File "/home/emiliano/censo-madrid/scripts/ine_censo2011.py", line 52, in _get
+    r = sesion.get(url, timeout=60)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emiliano/censo-madrid/.venv/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "/home/emiliano/censo-madrid/scripts/descargar_panel_2011.py", line 32, in <module>
+    import ine_censo2011 as ine
+ModuleNotFoundError: No module named 'ine_censo2011'
+83 variables x 489 VUPACI | 21 VUPACI hechos | 468 pendientes
+estimación: 53.1 horas
+[1/468] VUPACI 21: 83/83 variables en 544s | faltan 70.6 h
+[2/468] VUPACI 22: 83/83 variables en 571s | faltan 72.2 h
+[3/468] VUPACI 23: 83/83 variables en 555s | faltan 71.9 h
+[4/468] VUPACI 24: 83/83 variables en 564s | faltan 72.0 h
+[5/468] VUPACI 25: 83/83 variables en 576s | faltan 72.3 h
+[6/468] VUPACI 26: 82/83 variables en 600s | faltan 73.0 h | fallaron: ['Nacionalidad (española/extranjera)']
+[7/468] VUPACI 27: 83/83 variables en 618s | faltan 73.7 h
+[8/468] VUPACI 28: 83/83 variables en 606s | faltan 74.0 h
+[9/468] VUPACI 29: 83/83 variables en 604s | faltan 74.2 h
+[10/468] VUPACI 30: 83/83 variables en 590s | faltan 74.2 h
+[11/468] VUPACI 31: 83/83 variables en 587s | faltan 74.1 h
+[12/468] VUPACI 32: 83/83 variables en 607s | faltan 74.1 h
+[13/468] VUPACI 33: 83/83 variables en 587s | faltan 74.0 h
+[14/468] VUPACI 34: 83/83 variables en 581s | faltan 73.8 h
+[15/468] VUPACI 35: 83/83 variables en 658s | faltan 74.2 h
+[16/468] VUPACI 36: 83/83 variables en 543s | faltan 73.7 h
+[17/468] VUPACI 37: 83/83 variables en 467s | faltan 72.7 h
+[18/468] VUPACI 38: 83/83 variables en 464s | faltan 71.7 h
+[19/468] VUPACI 39: 83/83 variables en 468s | faltan 70.9 h
+[20/468] VUPACI 40: 83/83 variables en 470s | faltan 70.1 h
+[21/468] VUPACI 41: 83/83 variables en 480s | faltan 69.4 h
+[22/468] VUPACI 42: 83/83 variables en 482s | faltan 68.9 h
+[23/468] VUPACI 43: 83/83 variables en 485s | faltan 68.3 h
+[24/468] VUPACI 44: 83/83 variables en 484s | faltan 67.8 h
+    VUPACI 45: sólo 21/83 variables, vuelta 1
+[25/468] VUPACI 45: 83/83 variables en 840s | faltan 69.1 h
+[26/468] VUPACI 46: 83/83 variables en 379s | faltan 68.1 h
+[27/468] VUPACI 47: 83/83 variables en 372s | faltan 67.1 h
+[28/468] VUPACI 48: 83/83 variables en 394s | faltan 66.3 h
+[29/468] VUPACI 49: 83/83 variables en 399s | faltan 65.5 h
+[30/468] VUPACI 50: 83/83 variables en 392s | faltan 64.8 h
+[31/468] VUPACI 51: 83/83 variables en 412s | faltan 64.2 h
+[32/468] VUPACI 52: 83/83 variables en 412s | faltan 63.6 h
+[33/468] VUPACI 53: 83/83 variables en 419s | faltan 63.0 h
+[34/468] VUPACI 54: 83/83 variables en 418s | faltan 62.5 h
+[35/468] VUPACI 55: 83/83 variables en 431s | faltan 62.1 h
+[36/468] VUPACI 56: 82/83 variables en 477s | faltan 61.8 h | fallaron: ['Superficie útil de la vivienda']
+[37/468] VUPACI 57: 83/83 variables en 447s | faltan 61.4 h
+[38/468] VUPACI 58: 83/83 variables en 439s | faltan 61.1 h
+[39/468] VUPACI 59: 83/83 variables en 457s | faltan 60.8 h
+[40/468] VUPACI 60: 83/83 variables en 458s | faltan 60.5 h
+[41/468] VUPACI 61: 83/83 variables en 465s | faltan 60.2 h
+[42/468] VUPACI 62: 83/83 variables en 447s | faltan 59.9 h
+[43/468] VUPACI 63: 83/83 variables en 481s | faltan 59.7 h
+[44/468] VUPACI 64: 83/83 variables en 462s | faltan 59.4 h
+[45/468] VUPACI 65: 83/83 variables en 487s | faltan 59.2 h
+[46/468] VUPACI 66: 83/83 variables en 471s | faltan 59.0 h
+[47/468] VUPACI 67: 83/83 variables en 485s | faltan 58.8 h
+[48/468] VUPACI 68: 83/83 variables en 469s | faltan 58.6 h
+[49/468] VUPACI 69: 83/83 variables en 479s | faltan 58.4 h
+[50/468] VUPACI 70: 83/83 variables en 487s | faltan 58.2 h
+[51/468] VUPACI 71: 83/83 variables en 506s | faltan 58.1 h
+[52/468] VUPACI 72: 83/83 variables en 496s | faltan 58.0 h
+[53/468] VUPACI 73: 83/83 variables en 504s | faltan 57.8 h
+[54/468] VUPACI 74: 83/83 variables en 517s | faltan 57.7 h
+[55/468] VUPACI 75: 83/83 variables en 507s | faltan 57.6 h
+[56/468] VUPACI 77: 83/83 variables en 526s | faltan 57.5 h
+[57/468] VUPACI 78: 83/83 variables en 542s | faltan 57.4 h
+[58/468] VUPACI 79: 83/83 variables en 549s | faltan 57.4 h
+[59/468] VUPACI 80: 83/83 variables en 534s | faltan 57.3 h
+[60/468] VUPACI 81: 83/83 variables en 546s | faltan 57.3 h
+[61/468] VUPACI 82: 83/83 variables en 547s | faltan 57.2 h
+[62/468] VUPACI 83: 83/83 variables en 558s | faltan 57.1 h
+[63/468] VUPACI 84: 83/83 variables en 566s | faltan 57.1 h
+[64/468] VUPACI 85: 83/83 variables en 568s | faltan 57.1 h
+[65/468] VUPACI 86: 83/83 variables en 550s | faltan 57.0 h
+[66/468] VUPACI 87: 83/83 variables en 596s | faltan 57.0 h
+[67/468] VUPACI 88: 83/83 variables en 576s | faltan 57.0 h
+    VUPACI 89: geografía falló (500 Server Error: Internal Server Error for url: https://www.ine.es/censos2011/tablas/Wizard.do?WIZARD=1&reqCode=paso2), vuelta 1
+    sin conexión con el INE, reintento en 30s
+    sin conexión con el INE, reintento en 60s
+    sin conexión con el INE, reintento en 120s
+    sin conexión con el INE, reintento en 240s
+    sin conexión con el INE, reintento en 480s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    red de vuelta tras 166 min
+    VUPACI 89: sólo 0/83 variables, vuelta 2
+    sin conexión con el INE, reintento en 30s
+    sin conexión con el INE, reintento en 60s
+    sin conexión con el INE, reintento en 120s
+    sin conexión con el INE, reintento en 240s
+    sin conexión con el INE, reintento en 480s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    sin conexión con el INE, reintento en 600s
+    red de vuelta tras 926 min
+[68/468] VUPACI 89: 83/83 variables en 66213s | faltan 164.2 h
+[69/468] VUPACI 90: 83/83 variables en 378s | faltan 162.0 h
+[70/468] VUPACI 91: 83/83 variables en 376s | faltan 159.9 h
+[71/468] VUPACI 92: 83/83 variables en 403s | faltan 157.9 h
+[72/468] VUPACI 93: 83/83 variables en 427s | faltan 155.9 h
+[73/468] VUPACI 94: 83/83 variables en 414s | faltan 154.0 h
+[74/468] VUPACI 95: 83/83 variables en 428s | faltan 152.2 h
+[75/468] VUPACI 96: 83/83 variables en 441s | faltan 150.4 h
+[76/468] VUPACI 97: 83/83 variables en 459s | faltan 148.7 h
+[77/468] VUPACI 98: 83/83 variables en 442s | faltan 147.1 h
+[78/468] VUPACI 99: 82/83 variables en 506s | faltan 145.5 h | fallaron: ['Relación entre lugar de nacimiento y residencia']
+[79/468] VUPACI 100: 83/83 variables en 461s | faltan 143.9 h
+[80/468] VUPACI 101: 83/83 variables en 474s | faltan 142.4 h
+[81/468] VUPACI 102: 83/83 variables en 459s | faltan 140.9 h
+[82/468] VUPACI 103: 83/83 variables en 477s | faltan 139.4 h
+[83/468] VUPACI 104: 83/83 variables en 465s | faltan 138.0 h
+[84/468] VUPACI 105: 83/83 variables en 488s | faltan 136.6 h
+[85/468] VUPACI 106: 83/83 variables en 481s | faltan 135.3 h
+[86/468] VUPACI 107: 83/83 variables en 485s | faltan 133.9 h
+[87/468] VUPACI 108: 83/83 variables en 514s | faltan 132.7 h
+[88/468] VUPACI 109: 83/83 variables en 527s | faltan 131.5 h
+[89/468] VUPACI 110: 83/83 variables en 520s | faltan 130.3 h
+[90/468] VUPACI 111: 83/83 variables en 523s | faltan 129.1 h
+[91/468] VUPACI 112: 83/83 variables en 525s | faltan 127.9 h
+[92/468] VUPACI 113: 83/83 variables en 528s | faltan 126.8 h
+[93/468] VUPACI 114: 83/83 variables en 524s | faltan 125.7 h
+[94/468] VUPACI 115: 83/83 variables en 547s | faltan 124.6 h
+[95/468] VUPACI 116: 83/83 variables en 520s | faltan 123.6 h
+[96/468] VUPACI 117: 83/83 variables en 558s | faltan 122.5 h
+[97/468] VUPACI 118: 83/83 variables en 547s | faltan 121.5 h
+[98/468] VUPACI 119: 83/83 variables en 553s | faltan 120.5 h
+[99/468] VUPACI 120: 82/83 variables en 575s | faltan 119.6 h | fallaron: ['CC.AA. de nacimiento']
+    VUPACI 121: totales inconsistentes [9730, 21015], se descarta y se repite

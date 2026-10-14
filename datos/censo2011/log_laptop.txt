@@ -1,0 +1,3 @@
+83 variables x 489 VUPACI | 0 VUPACI hechos | 3 pendientes
+estimación: 0.3 horas
+    VUPACI 500: totales inconsistentes [9730, 21015], se descarta y se repite
