@@ -20,3 +20,32 @@ momento,VUPACI,rama,variable
 2026-10-13 23:26:22,164,Composición del hogar,Nº de familias en el hogar
 2026-10-13 23:32:43,165,Residencia en 2001,Relación entre residencia en 2001 y actual
 2026-10-13 23:32:43,165,Segundo municipio,Tamaño del segundo municipio
+2026-10-13 23:39:30,166,Residencia en 2001,Relación entre residencia en 2001 y actual
+2026-10-13 23:39:30,166,Composición del hogar,Tipo de hogar
+2026-10-13 23:39:30,166,Instalaciones de la vivienda,Acceso a Internet
+2026-10-13 23:39:30,166,Instalaciones,Gas
+2026-10-13 23:39:30,166,Datos de la persona,Convivencia con otro pariente
+2026-10-13 23:39:30,166,Segundo municipio,Disponibilidad de vivienda en segundo municipio
+2026-10-14 00:13:46,167,Ocupación profesional,Ocupación (a 1 dígito de la CNO11)
+2026-10-14 00:35:45,168,Lugar de nacimiento,Relación entre lugar de nacimiento y residencia
+2026-10-14 00:35:45,168,Residencia en 2010,CC.AA. de residencia en 2010
+2026-10-14 00:43:24,169,Residencia en 2001,País de residencia en 2001 (grandes grupos)
+2026-10-14 00:43:24,169,Relación con la actividad,Relación preferente con la actividad (detalle)
+2026-10-14 00:43:24,169,Actividad del establecimiento,Actividad del establecimiento (a 1 letra de la CNAE09)
+2026-10-14 00:43:24,169,Composición del hogar,Estructura del hogar
+2026-10-14 00:43:24,169,Lugar de nacimiento,CC.AA. de nacimiento
+2026-10-14 00:43:24,169,Última residencia anterior,Tamaño de municipio de residencia anterior
+2026-10-14 00:58:43,170,Relación con la actividad,Relación preferente con la actividad (detalle)
+2026-10-14 02:04:28,178,Datos básicos del edificio,Año de construcción (detalle)
+2026-10-14 02:04:28,178,Datos básicos del edificio,Estado del edificio
+2026-10-14 08:45:23,196,Nacionalidad,Nacionalidad (española/extranjera)
+2026-10-14 09:05:49,199,Última residencia anterior,CC.AA. de residencia anterior
+2026-10-14 22:16:55,225,Características de la pareja,Tipo de pareja (de hecho o de derecho)
+2026-10-15 07:56:50,237,Otros datos de la vivienda,Superficie útil de la vivienda
+2026-10-15 07:56:50,237,Datos básicos del edificio,Año de construcción (agregado)
+2026-10-15 08:21:10,240,Residencia en 2001,Relación entre residencia en 2001 y actual
+2026-10-15 08:37:40,242,Estudios,Tipo de estudios completados
+2026-10-15 08:37:40,242,Última residencia anterior,Relación entre residencia anterior y actual
+2026-10-15 23:49:52,339,Tareas no remuneradas,Cuidar a una persona con problemas salud
+2026-10-17 18:07:36 (truncada),142,Nivel de estudios,Tipo de estudios completados
+2026-10-17 18:07:36 (truncada),237,Datos básicos del edificio,Año de construcción (detalle)

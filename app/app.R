@@ -39,6 +39,7 @@ ui <- page_sidebar(
       selectInput("categoria", "Categoría", choices = NULL),
       helpText("Se mapea el porcentaje que representa esa categoría ",
                "sobre el total del VUPACI.")),
+    uiOutput("cobertura"),
     hr(),
     uiOutput("ficha"),
     hr(),
@@ -138,6 +139,21 @@ server <- function(input, output, session) {
         label = etiquetas) |>
       addLegend("bottomright", pal = pal, values = cp$dominio,
                 title = cp$etiqueta, opacity = 0.9)
+  })
+
+  output$cobertura <- renderUI({
+    g <- capa()$g
+    con <- sum(!is.na(g$valor))
+    de <- nrow(g)
+    if (con == de) return(NULL)
+    # Un VUPACI gris puede ser "todavía no descargado" o "sin dato publicado",
+    # nunca "sin habitantes". Decirlo evita leer los huecos como vacíos.
+    div(class = "alert alert-warning p-2 mt-2 mb-0",
+        style = "font-size: 0.82em;",
+        HTML(sprintf(paste0(
+          "<strong>%d de %d VUPACI</strong> con dato para esta selección ",
+          "(%.0f %%).<br>Los grises están pendientes de descarga, no vacíos."),
+          con, de, 100 * con / de)))
   })
 
   observeEvent(input$mapa_shape_click, seleccionado(input$mapa_shape_click$id))

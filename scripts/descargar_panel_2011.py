@@ -42,6 +42,7 @@ PROGRESO = os.path.join(DESTINO, "progreso.csv")
 RESPALDO = os.path.join(DESTINO, "panel_2011.respaldo.csv")
 # registro de las variables que el INE no devolvió, para pedirlas después
 FALTANTES = os.path.join(DESTINO, "faltantes.csv")
+QUEMADOS = os.path.join(DESTINO, "quemados.csv")
 CADA = 5          # cada cuántos VUPACI se deja registro y respaldo
 
 # Se puede correr una segunda instancia en OTRA MÁQUINA empezando por el final
@@ -54,6 +55,7 @@ CADA = 5          # cada cuántos VUPACI se deja registro y respaldo
 # variables pedidas. Sin esto, una caída de red marca como "hecho" un VUPACI
 # del que no se bajó nada: pasó el 2026-10-09 y se perdieron 220 grupos.
 FRACCION_MINIMA = 0.80
+AVISO_CAIDA = "no funciona con normalidad"
 
 
 def esperar_red(intentos=None):
@@ -66,12 +68,43 @@ def esperar_red(intentos=None):
     # Por eso conviene reintentar rápido y muchas veces antes de dormir en
     # serio. Con el backoff anterior (duplicando hasta 600 s) un fallo de
     # dos segundos costaba veinte minutos de reloj.
+    # Dos averías distintas, comprobadas en los logs:
+    #  - HTTP 500/404 intermitentes (122 el 14/10, de 03 a 07 h): el servidor
+    #    está en pie y falla un pedido suelto. Se arregla reintentando rápido.
+    #  - ConnectTimeout sostenido (250 el 14/10, de 10:34 a 20:45, diez horas
+    #    clavadas): no entra ni el SYN, mientras el resto de internet anda.
+    #    Ahí reintentar cada dos minutos no sirve de nada y, si lo que hay
+    #    del otro lado es un bloqueo por IP, lo único que hace es alimentarlo.
+    # El escalón largo que probé el 14/10 (300 s y 600 s tras un rato) resultó
+    # contraproducente: el 17/10 un proceso quedó cuatro horas sondeando cada
+    # diez minutos, siempre 500, mientras otro proceso contra la misma URL y la
+    # misma IP sacaba 200 el 70 % de las veces. Un proceso así no se arregla
+    # esperando más, se arregla reemplazándolo, y de eso se ocupa vigilante.sh
+    # cuando ve que el panel dejó de crecer. Acá la espera no pasa de 120 s.
     esperas = [2, 2, 5, 5, 10, 15, 30, 60, 120]
     i_espera, total = 0, 0
     while intentos is None or intentos > 0:
         espera = esperas[min(i_espera, len(esperas) - 1)]
         try:
-            requests.get(ine.BASE + "Inicio.do", timeout=30).raise_for_status()
+            r = requests.get(ine.BASE + "Inicio.do", timeout=30)
+            # El INE avisa de sus incidencias en el cuerpo de la respuesta:
+            # "Debido a cuestiones técnicas, la web del INE no funciona con
+            # normalidad. Por favor, inténtelo más tarde". Eso no es un 500
+            # suelto que convenga reintentar a los dos segundos, es una caída
+            # declarada que dura horas (la del 16/10/2026 se llevó dos días).
+            # Distinguirla sirve para dos cosas: no machacarles el servidor
+            # mientras lo arreglan, y dejarlo dicho en el log en lugar de
+            # acumular mil líneas de "no responde" sin explicación.
+            if AVISO_CAIDA in r.text:
+                print(f"    [{time.strftime('%H:%M:%S')}] el INE avisa de una "
+                      f"incidencia en su web; espero 15 min", file=sys.stderr,
+                      flush=True)
+                time.sleep(900)
+                total += 900
+                if intentos is not None:
+                    intentos -= 1
+                continue
+            r.raise_for_status()
             if total:
                 print(f"    [{time.strftime('%H:%M:%S')}] el INE volvió tras "
                       f"{total}s", flush=True)
@@ -230,7 +263,7 @@ def main():
                 s_ = ine.nueva_sesion()
                 return s_, ine.cargar_municipios(s_, "28")
             except Exception as e:
-                espera = min(10 * intento, 180)
+                espera = min(5 * intento, 45)
                 print(f"    [{time.strftime('%H:%M:%S')}] no se pudo abrir "
                       f"sesión ({type(e).__name__}), intento {intento}, "
                       f"reintento en {espera}s", file=sys.stderr, flush=True)
@@ -239,60 +272,118 @@ def main():
     sesion, muni = nueva_sesion_firme()
     t_inicio = time.time()
 
+    quemados = []
+    bajados = 0
+    # Esperas entre tandas cuando el grupo devuelve CERO variables.
+    ESPERAS_TANDA = [300, 600, 1200, 1800, 1800]
+
     for i, v in enumerate(pendientes, 1):
         t0 = time.time()
         filas_v, fallos, hechas = [], [], 0
+        logrado = False
 
-        for vuelta in range(1, 6):          # el VUPACI se reintenta entero
-            filas_v, fallos, totales = [], [], set()
-            esperar_red()
-            try:
-                fijar_geografia(sesion, grupos[v], muni)
-            except Exception as e:
-                print(f"    VUPACI {v}: geografía falló ({e}), vuelta {vuelta}",
-                      file=sys.stderr, flush=True)
-                esperar_red()
+        # Un grupo que devuelve CERO variables no tiene un problema propio:
+        # el que está roto es el INE. Comprobado el 16/10/2026: con Inicio.do
+        # contestando 200 (o sea, esperar_red() daba vía libre y no anotó un
+        # solo fallo), el asistente devolvía 500 a cada consulta, y la corrida
+        # se comió diecinueve grupos seguidos -del 249 al 267- a cinco vueltas
+        # cada uno, sin bajar una sola fila. Por eso el cero ya no hace avanzar
+        # la lista: espera y reintenta EL MISMO grupo. Que baje algunas
+        # variables sí es cosa del grupo, y entonces se lo deja atrás.
+        for tanda in range(len(ESPERAS_TANDA) + 1):
+            if tanda:
+                espera = ESPERAS_TANDA[tanda - 1]
+                print(f"    VUPACI {v}: cero variables en cinco vueltas, el INE "
+                      f"debe estar roto; espero {espera // 60} min y repito "
+                      f"el mismo grupo", file=sys.stderr, flush=True)
+                time.sleep(espera)
                 try:
                     sesion, muni = nueva_sesion_firme()
                 except Exception:
                     pass
-                continue
 
-            for d in variables:
+            for vuelta in range(1, 6):      # el VUPACI se reintenta entero
+                filas_v, fallos, totales = [], [], set()
+                esperar_red()
                 try:
-                    cols, crudos = pedir(sesion, d["clave"])
-                    for cat, val in zip(cols, crudos):
-                        if cat == "Total":
-                            totales.add(ine.a_numero(val))
-                        filas_v.append([v, d["rama"], d["nombre"], cat,
-                                        ine.a_numero(val),
-                                        "sí" if "*" in (val or "") else ""])
-                except Exception:
-                    fallos.append((d["rama"], d["nombre"]))
-                    time.sleep(1)
+                    fijar_geografia(sesion, grupos[v], muni)
+                except Exception as e:
+                    print(f"    VUPACI {v}: geografía falló ({e}), vuelta {vuelta}",
+                          file=sys.stderr, flush=True)
+                    esperar_red()
+                    try:
+                        sesion, muni = nueva_sesion_firme()
+                    except Exception:
+                        pass
+                    continue
 
-            hechas = len(variables) - len(fallos)
-            # el total de personas tiene que ser el mismo en todas las
-            # variables; si no, el INE cruzó respuestas y el grupo no sirve
-            if len(totales) > 1:
-                print(f"    VUPACI {v}: totales inconsistentes {sorted(totales)}, "
-                      f"se descarta y se repite", file=sys.stderr, flush=True)
-                sesion, muni = nueva_sesion_firme()
-                continue
+                for d in variables:
+                    try:
+                        cols, crudos = pedir(sesion, d["clave"])
+                        nums = [ine.a_numero(x) for x in crudos]
+                        # El INE puede devolver la tabla TRUNCADA: el Total
+                        # correcto pero sólo parte de las categorías. Pasaba
+                        # inadvertido porque el Total cuadraba con el control
+                        # de población. Comprobado el 17/10/2026 en 2 de 24.991
+                        # pares: al VUPACI 142 le faltaban 3 de 9 categorías de
+                        # "Tipo de estudios completados", o sea 6.945 personas,
+                        # y al 237 dos tramos de "Año de construcción".
+                        # Las categorías tienen que sumar el Total; el redondeo
+                        # a múltiplos de 5 deja un margen de 5 por categoría
+                        # (el 99,99 % de los pares buenos cae dentro de ±20).
+                        suma = sum(n for c, n in zip(cols, nums)
+                                   if c != "Total" and n is not None)
+                        total_d = next((n for c, n in zip(cols, nums)
+                                        if c == "Total"), None)
+                        ncat = max(1, sum(1 for c in cols if c != "Total"))
+                        if (total_d is not None
+                                and abs(suma - total_d) > 5 * ncat):
+                            raise ValueError(
+                                f"tabla truncada: las categorías suman {suma} "
+                                f"y el Total dice {total_d}")
+                        for cat, n, val in zip(cols, nums, crudos):
+                            if cat == "Total":
+                                totales.add(n)
+                            filas_v.append([v, d["rama"], d["nombre"], cat, n,
+                                            "sí" if "*" in (val or "") else ""])
+                    except Exception:
+                        fallos.append((d["rama"], d["nombre"]))
+                        time.sleep(1)
+
+                hechas = len(variables) - len(fallos)
+                # el total de personas tiene que ser el mismo en todas las
+                # variables; si no, el INE cruzó respuestas y el grupo no sirve
+                if len(totales) > 1:
+                    print(f"    VUPACI {v}: totales inconsistentes {sorted(totales)}, "
+                          f"se descarta y se repite", file=sys.stderr, flush=True)
+                    hechas = 0          # cruce = problema del servidor, reintentar
+                    sesion, muni = nueva_sesion_firme()
+                    continue
+                if hechas >= FRACCION_MINIMA * len(variables):
+                    break
+                print(f"    VUPACI {v}: sólo {hechas}/{len(variables)} variables, "
+                      f"vuelta {vuelta}", file=sys.stderr, flush=True)
+                esperar_red()
+                try:
+                    sesion = ine.nueva_sesion()
+                    muni = ine.cargar_municipios(sesion, "28")
+                except Exception:
+                    pass
+
             if hechas >= FRACCION_MINIMA * len(variables):
+                logrado = True
                 break
-            print(f"    VUPACI {v}: sólo {hechas}/{len(variables)} variables, "
-                  f"vuelta {vuelta}", file=sys.stderr, flush=True)
-            esperar_red()
-            try:
-                sesion = ine.nueva_sesion()
-                muni = ine.cargar_municipios(sesion, "28")
-            except Exception:
-                pass
-        else:
+            if hechas:
+                break           # bajó algo: es el grupo, no el servidor
+
+        if not logrado:
             print(f"    VUPACI {v}: NO se pudo bajar, queda pendiente",
                   file=sys.stderr, flush=True)
+            quemados.append(v)
+            with open(QUEMADOS, "a", encoding="utf-8") as q:
+                q.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')},{v},{hechas}\n")
             continue
+        bajados += 1
 
         for fila in filas_v:
             w.writerow(fila)
@@ -309,13 +400,17 @@ def main():
               + (f" | faltaron {len(fallos)}: "
                  f"{[n for _, n in fallos][:3]}" if fallos else ""), flush=True)
         if args.cada and i % args.cada == 0:
-            dejar_registro(len(hechos) + i, len(pendientes) - i, v,
+            dejar_registro(len(hechos) + bajados, len(pendientes) - i, v,
                            (time.time() - t_inicio) / i)
         time.sleep(args.pausa)
 
     if pendientes:
-        dejar_registro(len(hechos) + len(pendientes), 0, pendientes[-1],
+        dejar_registro(len(hechos) + bajados, len(quemados), pendientes[-1],
                        (time.time() - t_inicio) / max(1, len(pendientes)))
+    if quemados:
+        print(f"\nquedaron {len(quemados)} VUPACI sin bajar: {quemados}\n"
+              f"están anotados en {QUEMADOS} y vuelven solos a la cola "
+              f"en el próximo arranque", flush=True)
     f.close()
     marcas.close()
     prog.close()

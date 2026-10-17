@@ -3,3 +3,9 @@
     [5/329] VUPACI 165: 81/83 variables en 381s | faltan 46.4 h | faltaron 2: ['Relación entre residencia en 2001 y actual', 'Tamaño del segundo municipio']
         · registro: 165 hechos, 96581 filas, respaldo guardado, totales ok
 [2026-10-13 23:33:09] relanzada correctamente
+[2026-10-17 16:00:01] atasco: el panel no crece desde hace 2375 min, mato 532410 y relanzo
+[2026-10-17 16:00:04] atasco: el panel no crece desde hace 2375 min con 321/489 hechos, relanzando
+        [15:59:22] el INE no responde (HTTP 500), reintento en 2s
+        [15:59:25] el INE volvió tras 2s
+        [15:59:26] no se pudo abrir sesión (HTTPError), intento 19, reintento en 45s
+[2026-10-17 16:00:14] relanzada correctamente

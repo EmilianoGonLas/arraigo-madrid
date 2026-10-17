@@ -79,7 +79,34 @@ largo <- bind_rows(
 # el panel de 2011, si ya hay algo descargado
 panel <- file.path(raiz, "datos", "censo2011", "panel_2011.csv")
 if (file.exists(panel)) {
-  p <- read_csv(panel, show_col_types = FALSE) |>
+  bruto <- read_csv(panel, show_col_types = FALSE)
+
+  # El INE devuelve a veces la tabla truncada: el Total correcto pero sólo
+  # parte de las categorías. Eso no se nota en la población total -por eso
+  # pasó el control contra el fichero de indicadores- pero el desglose queda
+  # mal y mostrarlo sería mentir. Las categorías tienen que sumar el Total,
+  # con 5 de margen por categoría por el redondeo del secreto estadístico.
+  # El 17/10/2026 esto excluía 2 pares de 24.991: al VUPACI 142 le faltaban
+  # 3 de 9 categorías de estudios y al 237 dos tramos de año de construcción.
+  control <- bruto |>
+    group_by(VUPACI, variable) |>
+    summarise(total = sum(personas[categoria == "Total"], na.rm = TRUE),
+              suma  = sum(personas[categoria != "Total"], na.rm = TRUE),
+              ncat  = sum(categoria != "Total"), .groups = "drop") |>
+    mutate(sirve = abs(suma - total) <= 5 * pmax(ncat, 1))
+
+  malas <- control |> filter(!sirve)
+  if (nrow(malas)) {
+    message(sprintf("panel 2011: excluyo %d desgloses truncados de %d",
+                    nrow(malas), nrow(control)))
+    for (i in seq_len(nrow(malas)))
+      message(sprintf("    VUPACI %d: %s (suman %d, Total %d)",
+                      malas$VUPACI[i], malas$variable[i],
+                      malas$suma[i], malas$total[i]))
+  }
+
+  p <- bruto |>
+    semi_join(control |> filter(sirve), by = c("VUPACI", "variable")) |>
     filter(categoria != "Total") |>
     transmute(VUPACI, censo = 2011L, rama, variable, categoria, personas)
   largo <- bind_rows(largo, p)
