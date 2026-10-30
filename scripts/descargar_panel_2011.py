@@ -56,6 +56,7 @@ CADA = 5          # cada cuántos VUPACI se deja registro y respaldo
 # del que no se bajó nada: pasó el 2026-10-09 y se perdieron 220 grupos.
 FRACCION_MINIMA = 0.80
 AVISO_CAIDA = "no funciona con normalidad"
+LIMITE_VUELTA = 1200        # 20 min; una vuelta sana tarda ~6
 
 
 def esperar_red(intentos=None):
@@ -317,7 +318,30 @@ def main():
                         pass
                     continue
 
-                for d in variables:
+                t_vuelta = time.time()
+                lenta = False
+                for n_var, d in enumerate(variables, 1):
+                    # Tope de reloj de pared para la vuelta entera. El timeout
+                    # de requests es POR LECTURA: si el servidor gotea un byte
+                    # cada pocos segundos nunca salta, y la vuelta se eterniza.
+                    # Comprobado el 30/10/2026: una conexión degradada iba a
+                    # 8,5 KB/s mientras una recién abierta daba 110 KB/s, y el
+                    # proceso pasó 17 HORAS dentro de una sola vuelta sin
+                    # escribir una línea. Una vuelta sana tarda unos 6 min.
+                    if time.time() - t_vuelta > LIMITE_VUELTA:
+                        print(f"    VUPACI {v}: la vuelta {vuelta} pasó de "
+                              f"{LIMITE_VUELTA // 60} min en la variable "
+                              f"{n_var}/{len(variables)}; corto y abro sesión "
+                              f"nueva", file=sys.stderr, flush=True)
+                        lenta = True
+                        break
+                    # latido: sin esto un grupo lento es indistinguible de uno
+                    # colgado hasta que termina, y puede no terminar nunca
+                    if n_var % 20 == 0:
+                        print(f"      · VUPACI {v} vuelta {vuelta}: "
+                              f"{n_var}/{len(variables)} variables, "
+                              f"{time.time() - t_vuelta:.0f}s",
+                              file=sys.stderr, flush=True)
                     try:
                         cols, crudos = pedir(sesion, d["clave"])
                         nums = [ine.a_numero(x) for x in crudos]
@@ -349,6 +373,13 @@ def main():
                     except Exception:
                         fallos.append((d["rama"], d["nombre"]))
                         time.sleep(1)
+
+                if lenta:
+                    try:
+                        sesion, muni = nueva_sesion_firme()
+                    except Exception:
+                        pass
+                    continue
 
                 hechas = len(variables) - len(fallos)
                 # el total de personas tiene que ser el mismo en todas las

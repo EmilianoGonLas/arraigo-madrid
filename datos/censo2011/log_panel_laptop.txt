@@ -3482,3 +3482,637 @@ estimación: 19.1 horas
 estimación: 19.1 horas
     [17:56:01] el INE avisa de una incidencia en su web; espero 15 min
     [18:11:02] el INE avisa de una incidencia en su web; espero 15 min
+    [18:26:04] el INE avisa de una incidencia en su web; espero 15 min
+    [18:41:05] el INE avisa de una incidencia en su web; espero 15 min
+    [18:56:06] el INE avisa de una incidencia en su web; espero 15 min
+    [19:11:07] el INE avisa de una incidencia en su web; espero 15 min
+    [19:26:11] el INE volvió tras 5400s
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+[2026-10-17 20:00:04] vigilante: relanzado por atasco: el panel no crece desde hace 2615 min
+83 variables x 489 VUPACI | 321 VUPACI hechos | 168 pendientes
+estimación: 19.1 horas
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 185: sólo 0/83 variables, vuelta 1
+    VUPACI 185: sólo 0/83 variables, vuelta 2
+    VUPACI 185: sólo 0/83 variables, vuelta 3
+    VUPACI 185: sólo 0/83 variables, vuelta 4
+    VUPACI 185: sólo 0/83 variables, vuelta 5
+    VUPACI 185: NO se pudo bajar, queda pendiente
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    VUPACI 186: sólo 0/83 variables, vuelta 5
+    VUPACI 186: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    [01:27:34] el INE avisa de una incidencia en su web; espero 15 min
+    [01:42:35] el INE avisa de una incidencia en su web; espero 15 min
+    [01:57:36] el INE avisa de una incidencia en su web; espero 15 min
+    [02:12:37] el INE avisa de una incidencia en su web; espero 15 min
+    [02:27:38] el INE avisa de una incidencia en su web; espero 15 min
+    [02:42:40] el INE avisa de una incidencia en su web; espero 15 min
+    [02:57:41] el INE avisa de una incidencia en su web; espero 15 min
+    [03:12:42] el INE avisa de una incidencia en su web; espero 15 min
+    [03:27:43] el INE volvió tras 7200s
+    VUPACI 186: geografía falló (500 Server Error: Internal Server Error for url: https://www.ine.es/censos2011/tablas/Wizard.do), vuelta 5
+    [03:28:01] no se pudo abrir sesión (HTTPError), intento 1, reintento en 5s
+    [03:28:07] el INE avisa de una incidencia en su web; espero 15 min
+    [03:43:09] el INE avisa de una incidencia en su web; espero 15 min
+    [03:58:10] el INE avisa de una incidencia en su web; espero 15 min
+    [04:13:11] el INE avisa de una incidencia en su web; espero 15 min
+    [04:28:13] el INE avisa de una incidencia en su web; espero 15 min
+    [04:43:14] el INE avisa de una incidencia en su web; espero 15 min
+    [04:58:15] el INE avisa de una incidencia en su web; espero 15 min
+    [05:13:16] el INE avisa de una incidencia en su web; espero 15 min
+    [05:28:17] el INE avisa de una incidencia en su web; espero 15 min
+    [05:43:19] el INE avisa de una incidencia en su web; espero 15 min
+    [05:58:20] el INE avisa de una incidencia en su web; espero 15 min
+    [06:13:21] el INE avisa de una incidencia en su web; espero 15 min
+    [06:28:22] el INE avisa de una incidencia en su web; espero 15 min
+    [06:43:23] el INE avisa de una incidencia en su web; espero 15 min
+    [06:58:24] el INE avisa de una incidencia en su web; espero 15 min
+    [07:13:25] el INE avisa de una incidencia en su web; espero 15 min
+    [07:28:26] el INE avisa de una incidencia en su web; espero 15 min
+    [07:43:27] el INE avisa de una incidencia en su web; espero 15 min
+    [07:58:29] el INE avisa de una incidencia en su web; espero 15 min
+    [08:13:30] el INE avisa de una incidencia en su web; espero 15 min
+    [08:28:31] el INE avisa de una incidencia en su web; espero 15 min
+    [08:43:32] el INE avisa de una incidencia en su web; espero 15 min
+    [08:58:33] el INE avisa de una incidencia en su web; espero 15 min
+    [09:13:35] el INE avisa de una incidencia en su web; espero 15 min
+    [09:28:36] el INE avisa de una incidencia en su web; espero 15 min
+    [09:43:37] el INE avisa de una incidencia en su web; espero 15 min
+    [09:58:38] el INE avisa de una incidencia en su web; espero 15 min
+    [10:13:39] el INE volvió tras 24300s
+    [10:13:40] no se pudo abrir sesión (HTTPError), intento 2, reintento en 10s
+    [10:13:51] el INE avisa de una incidencia en su web; espero 15 min
+    [10:28:52] el INE avisa de una incidencia en su web; espero 15 min
+    [10:43:54] el INE avisa de una incidencia en su web; espero 15 min
+    [10:58:55] el INE avisa de una incidencia en su web; espero 15 min
+    [11:13:56] el INE avisa de una incidencia en su web; espero 15 min
+    [11:28:57] el INE avisa de una incidencia en su web; espero 15 min
+    [11:43:58] el INE avisa de una incidencia en su web; espero 15 min
+    [11:58:59] el INE avisa de una incidencia en su web; espero 15 min
+    [12:14:00] el INE avisa de una incidencia en su web; espero 15 min
+    [12:29:01] el INE avisa de una incidencia en su web; espero 15 min
+    [12:44:02] el INE avisa de una incidencia en su web; espero 15 min
+    [12:59:04] el INE avisa de una incidencia en su web; espero 15 min
+    [13:14:05] el INE avisa de una incidencia en su web; espero 15 min
+    [13:29:06] el INE avisa de una incidencia en su web; espero 15 min
+    [13:44:07] el INE avisa de una incidencia en su web; espero 15 min
+    [13:59:08] el INE avisa de una incidencia en su web; espero 15 min
+    [14:14:09] el INE avisa de una incidencia en su web; espero 15 min
+    [14:29:10] el INE avisa de una incidencia en su web; espero 15 min
+    [14:44:12] el INE avisa de una incidencia en su web; espero 15 min
+    [14:59:13] el INE avisa de una incidencia en su web; espero 15 min
+    [15:14:14] el INE avisa de una incidencia en su web; espero 15 min
+    [15:29:15] el INE avisa de una incidencia en su web; espero 15 min
+    [15:44:16] el INE avisa de una incidencia en su web; espero 15 min
+    [15:59:17] el INE avisa de una incidencia en su web; espero 15 min
+    [16:14:18] el INE avisa de una incidencia en su web; espero 15 min
+    [16:29:19] el INE avisa de una incidencia en su web; espero 15 min
+    [16:44:20] el INE avisa de una incidencia en su web; espero 15 min
+    [16:59:22] el INE avisa de una incidencia en su web; espero 15 min
+    [17:14:23] el INE avisa de una incidencia en su web; espero 15 min
+    [17:29:24] el INE avisa de una incidencia en su web; espero 15 min
+    [17:44:25] el INE avisa de una incidencia en su web; espero 15 min
+    [17:59:26] el INE avisa de una incidencia en su web; espero 15 min
+    [18:14:30] el INE avisa de una incidencia en su web; espero 15 min
+    [18:29:31] el INE avisa de una incidencia en su web; espero 15 min
+    [18:44:32] el INE avisa de una incidencia en su web; espero 15 min
+    [18:59:34] el INE avisa de una incidencia en su web; espero 15 min
+    [19:14:35] el INE avisa de una incidencia en su web; espero 15 min
+    [19:29:39] el INE volvió tras 33300s
+    VUPACI 186: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    VUPACI 186: sólo 0/83 variables, vuelta 5
+    VUPACI 186: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    VUPACI 186: sólo 0/83 variables, vuelta 5
+    VUPACI 186: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    VUPACI 186: sólo 0/83 variables, vuelta 5
+    VUPACI 186: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 186: sólo 0/83 variables, vuelta 1
+    VUPACI 186: sólo 0/83 variables, vuelta 2
+    VUPACI 186: sólo 0/83 variables, vuelta 3
+    VUPACI 186: sólo 0/83 variables, vuelta 4
+    VUPACI 186: sólo 0/83 variables, vuelta 5
+    VUPACI 186: NO se pudo bajar, queda pendiente
+    VUPACI 249: sólo 0/83 variables, vuelta 1
+    VUPACI 249: sólo 0/83 variables, vuelta 2
+    VUPACI 249: sólo 0/83 variables, vuelta 3
+    VUPACI 249: sólo 0/83 variables, vuelta 4
+    VUPACI 249: sólo 0/83 variables, vuelta 5
+    VUPACI 249: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 249: sólo 0/83 variables, vuelta 1
+    VUPACI 249: sólo 0/83 variables, vuelta 2
+    VUPACI 249: sólo 0/83 variables, vuelta 3
+    VUPACI 249: sólo 0/83 variables, vuelta 4
+    VUPACI 249: sólo 0/83 variables, vuelta 5
+    VUPACI 249: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 249: sólo 0/83 variables, vuelta 1
+    VUPACI 249: sólo 0/83 variables, vuelta 2
+    VUPACI 249: sólo 0/83 variables, vuelta 3
+    VUPACI 249: sólo 0/83 variables, vuelta 4
+    VUPACI 249: sólo 0/83 variables, vuelta 5
+    VUPACI 249: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 249: sólo 0/83 variables, vuelta 1
+    VUPACI 249: sólo 0/83 variables, vuelta 2
+    VUPACI 249: sólo 0/83 variables, vuelta 3
+    VUPACI 249: sólo 0/83 variables, vuelta 4
+    VUPACI 249: sólo 0/83 variables, vuelta 5
+    VUPACI 249: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 249: sólo 0/83 variables, vuelta 1
+    VUPACI 249: sólo 0/83 variables, vuelta 2
+    VUPACI 249: sólo 0/83 variables, vuelta 3
+    VUPACI 249: sólo 0/83 variables, vuelta 4
+    VUPACI 249: sólo 0/83 variables, vuelta 5
+    VUPACI 249: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    [02:53:53] el INE avisa de una incidencia en su web; espero 15 min
+    [03:08:54] el INE avisa de una incidencia en su web; espero 15 min
+    [03:23:56] el INE avisa de una incidencia en su web; espero 15 min
+    [03:38:57] el INE avisa de una incidencia en su web; espero 15 min
+    [03:53:58] el INE avisa de una incidencia en su web; espero 15 min
+    [04:09:00] el INE avisa de una incidencia en su web; espero 15 min
+    [04:24:01] el INE avisa de una incidencia en su web; espero 15 min
+    [04:39:02] el INE avisa de una incidencia en su web; espero 15 min
+    [04:54:03] el INE avisa de una incidencia en su web; espero 15 min
+    [05:09:04] el INE avisa de una incidencia en su web; espero 15 min
+    [05:24:05] el INE avisa de una incidencia en su web; espero 15 min
+    [05:39:06] el INE avisa de una incidencia en su web; espero 15 min
+    [05:54:07] el INE avisa de una incidencia en su web; espero 15 min
+    [06:09:08] el INE avisa de una incidencia en su web; espero 15 min
+    [06:24:09] el INE avisa de una incidencia en su web; espero 15 min
+    [06:39:10] el INE avisa de una incidencia en su web; espero 15 min
+    [06:54:12] el INE avisa de una incidencia en su web; espero 15 min
+    [07:09:13] el INE avisa de una incidencia en su web; espero 15 min
+    [07:24:14] el INE avisa de una incidencia en su web; espero 15 min
+[2026-10-19 07:45:01] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 321 VUPACI hechos | 168 pendientes
+estimación: 19.1 horas
+    [07:45:05] el INE avisa de una incidencia en su web; espero 15 min
+    [08:00:06] el INE avisa de una incidencia en su web; espero 15 min
+    [08:15:07] el INE avisa de una incidencia en su web; espero 15 min
+    [08:30:08] el INE avisa de una incidencia en su web; espero 15 min
+    [08:45:10] el INE avisa de una incidencia en su web; espero 15 min
+    [09:00:11] el INE avisa de una incidencia en su web; espero 15 min
+    [09:15:12] el INE avisa de una incidencia en su web; espero 15 min
+    [09:30:13] el INE avisa de una incidencia en su web; espero 15 min
+    [09:45:14] el INE avisa de una incidencia en su web; espero 15 min
+    [10:00:15] el INE avisa de una incidencia en su web; espero 15 min
+[2026-10-19 10:15:02] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 321 VUPACI hechos | 168 pendientes
+estimación: 19.1 horas
+    [10:15:06] el INE avisa de una incidencia en su web; espero 15 min
+    [10:30:07] el INE avisa de una incidencia en su web; espero 15 min
+    [10:45:08] el INE avisa de una incidencia en su web; espero 15 min
+    [11:00:09] el INE avisa de una incidencia en su web; espero 15 min
+    [11:15:10] el INE avisa de una incidencia en su web; espero 15 min
+    [11:30:41] el INE no responde (ReadTimeout), reintento en 2s
+    [11:31:14] el INE no responde (ReadTimeout), reintento en 2s
+    [11:31:47] el INE no responde (ReadTimeout), reintento en 5s
+    [11:32:23] el INE no responde (ReadTimeout), reintento en 5s
+    [11:32:59] el INE no responde (ReadTimeout), reintento en 10s
+    [11:33:39] el INE no responde (ReadTimeout), reintento en 15s
+    [11:33:56] el INE volvió tras 4539s
+[1/168] VUPACI 185: 83/83 variables en 357s | faltan 16.5 h
+[2/168] VUPACI 186: 83/83 variables en 366s | faltan 16.7 h
+    VUPACI 249: sólo 27/83 variables, vuelta 1
+[3/168] VUPACI 249: 82/83 variables en 975s | faltan 25.9 h | faltaron 1: ['País de residencia anterior (grandes grupos)']
+[4/168] VUPACI 250: 83/83 variables en 356s | faltan 23.4 h
+[5/168] VUPACI 251: 83/83 variables en 365s | faltan 21.9 h
+    · registro: 326 hechos, 189540 filas, respaldo guardado, totales ok
+[6/168] VUPACI 252: 83/83 variables en 369s | faltan 20.9 h
+[7/168] VUPACI 253: 82/83 variables en 366s | faltan 20.2 h | faltaron 1: ['Tamaño de municipio de residencia']
+[8/168] VUPACI 254: 83/83 variables en 388s | faltan 19.7 h
+[9/168] VUPACI 255: 83/83 variables en 378s | faltan 19.3 h
+[10/168] VUPACI 256: 83/83 variables en 397s | faltan 19.0 h
+    · registro: 331 hechos, 192379 filas, respaldo guardado, totales ok
+[11/168] VUPACI 257: 83/83 variables en 531s | faltan 19.2 h
+[12/168] VUPACI 258: 83/83 variables en 445s | faltan 19.1 h
+[13/168] VUPACI 259: 83/83 variables en 388s | faltan 18.8 h
+[14/168] VUPACI 260: 83/83 variables en 411s | faltan 18.6 h
+[15/168] VUPACI 261: 83/83 variables en 491s | faltan 18.7 h
+    · registro: 336 hechos, 195244 filas, respaldo guardado, totales ok
+[16/168] VUPACI 262: 83/83 variables en 428s | faltan 18.5 h
+[17/168] VUPACI 263: 83/83 variables en 404s | faltan 18.3 h
+[18/168] VUPACI 264: 83/83 variables en 428s | faltan 18.2 h
+[19/168] VUPACI 265: 83/83 variables en 425s | faltan 18.0 h
+[20/168] VUPACI 266: 83/83 variables en 437s | faltan 17.9 h
+    · registro: 341 hechos, 198155 filas, respaldo guardado, totales ok
+[21/168] VUPACI 267: 83/83 variables en 447s | faltan 17.8 h
+[22/168] VUPACI 300: 83/83 variables en 457s | faltan 17.7 h
+[23/168] VUPACI 344: 83/83 variables en 464s | faltan 17.7 h
+[24/168] VUPACI 345: 82/83 variables en 462s | faltan 17.6 h | faltaron 1: ['CC.AA. de residencia en 2001']
+[25/168] VUPACI 346: 82/83 variables en 470s | faltan 17.5 h | faltaron 1: ['Régimen de tenencia (detalle)']
+    · registro: 346 hechos, 201076 filas, respaldo guardado, totales ok
+[26/168] VUPACI 347: 81/83 variables en 468s | faltan 17.4 h | faltaron 2: ['Estado del edificio', 'CC.AA. de nacimiento']
+[27/168] VUPACI 348: 83/83 variables en 477s | faltan 17.3 h
+[28/168] VUPACI 349: 82/83 variables en 486s | faltan 17.3 h | faltaron 1: ['Año de llegada a la vivienda']
+[29/168] VUPACI 350: 83/83 variables en 479s | faltan 17.2 h
+[30/168] VUPACI 351: 83/83 variables en 503s | faltan 17.2 h
+    · registro: 351 hechos, 203933 filas, respaldo guardado, totales ok
+[31/168] VUPACI 352: 83/83 variables en 500s | faltan 17.1 h
+[32/168] VUPACI 353: 83/83 variables en 508s | faltan 17.0 h
+[33/168] VUPACI 354: 83/83 variables en 506s | faltan 17.0 h
+[34/168] VUPACI 355: 83/83 variables en 526s | faltan 16.9 h
+[35/168] VUPACI 356: 83/83 variables en 526s | faltan 16.9 h
+    · registro: 356 hechos, 206879 filas, respaldo guardado, totales ok
+[36/168] VUPACI 357: 83/83 variables en 514s | faltan 16.8 h
+[37/168] VUPACI 358: 83/83 variables en 532s | faltan 16.8 h
+[38/168] VUPACI 359: 83/83 variables en 531s | faltan 16.7 h
+[39/168] VUPACI 360: 83/83 variables en 560s | faltan 16.7 h
+    VUPACI 361: sólo 60/83 variables, vuelta 1
+    VUPACI 361: sólo 0/83 variables, vuelta 2
+    VUPACI 361: sólo 0/83 variables, vuelta 3
+    VUPACI 361: sólo 0/83 variables, vuelta 4
+    VUPACI 361: sólo 0/83 variables, vuelta 5
+    VUPACI 361: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 361: sólo 0/83 variables, vuelta 1
+    VUPACI 361: sólo 0/83 variables, vuelta 2
+    VUPACI 361: sólo 0/83 variables, vuelta 3
+    VUPACI 361: sólo 0/83 variables, vuelta 4
+    VUPACI 361: sólo 0/83 variables, vuelta 5
+    VUPACI 361: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 361: sólo 0/83 variables, vuelta 1
+    VUPACI 361: sólo 0/83 variables, vuelta 2
+    VUPACI 361: sólo 0/83 variables, vuelta 3
+    VUPACI 361: sólo 0/83 variables, vuelta 4
+    VUPACI 361: sólo 0/83 variables, vuelta 5
+    VUPACI 361: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 361: sólo 0/83 variables, vuelta 1
+    VUPACI 361: sólo 0/83 variables, vuelta 2
+    VUPACI 361: sólo 0/83 variables, vuelta 3
+    VUPACI 361: sólo 0/83 variables, vuelta 4
+    VUPACI 361: sólo 0/83 variables, vuelta 5
+    VUPACI 361: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 361: sólo 0/83 variables, vuelta 1
+    VUPACI 361: sólo 0/83 variables, vuelta 2
+    VUPACI 361: sólo 0/83 variables, vuelta 3
+    VUPACI 361: sólo 0/83 variables, vuelta 4
+    VUPACI 361: sólo 0/83 variables, vuelta 5
+    VUPACI 361: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+[40/168] VUPACI 361: 75/83 variables en 10081s | faltan 25.1 h | faltaron 8: ['CC.AA. de residencia anterior', 'Tamaño de municipio de residencia anterior', 'País de residencia anterior (grandes grupos)']
+    · registro: 361 hechos, 209734 filas, respaldo guardado, totales ok
+    VUPACI 362: sólo 0/83 variables, vuelta 1
+[41/168] VUPACI 362: 83/83 variables en 478s | faltan 24.7 h
+[42/168] VUPACI 363: 83/83 variables en 325s | faltan 24.2 h
+[43/168] VUPACI 364: 83/83 variables en 330s | faltan 23.7 h
+[44/168] VUPACI 365: 83/83 variables en 352s | faltan 23.3 h
+[45/168] VUPACI 366: 83/83 variables en 358s | faltan 22.8 h
+    · registro: 366 hechos, 212545 filas, respaldo guardado, totales ok
+[46/168] VUPACI 367: 83/83 variables en 364s | faltan 22.4 h
+[47/168] VUPACI 368: 83/83 variables en 352s | faltan 22.0 h
+[48/168] VUPACI 369: 83/83 variables en 364s | faltan 21.6 h
+[49/168] VUPACI 370: 83/83 variables en 380s | faltan 21.3 h
+[50/168] VUPACI 371: 83/83 variables en 364s | faltan 20.9 h
+    · registro: 371 hechos, 215491 filas, respaldo guardado, totales ok
+[51/168] VUPACI 372: 83/83 variables en 390s | faltan 20.6 h
+[52/168] VUPACI 373: 83/83 variables en 380s | faltan 20.2 h
+[53/168] VUPACI 374: 83/83 variables en 387s | faltan 19.9 h
+[54/168] VUPACI 375: 83/83 variables en 391s | faltan 19.6 h
+[55/168] VUPACI 376: 83/83 variables en 389s | faltan 19.3 h
+    · registro: 376 hechos, 218367 filas, respaldo guardado, totales ok
+[56/168] VUPACI 377: 83/83 variables en 409s | faltan 19.0 h
+[57/168] VUPACI 378: 83/83 variables en 396s | faltan 18.7 h
+[58/168] VUPACI 379: 83/83 variables en 417s | faltan 18.5 h
+[59/168] VUPACI 380: 83/83 variables en 416s | faltan 18.2 h
+[60/168] VUPACI 381: 83/83 variables en 427s | faltan 17.9 h
+    · registro: 381 hechos, 221039 filas, respaldo guardado, totales ok
+[61/168] VUPACI 382: 83/83 variables en 420s | faltan 17.7 h
+[62/168] VUPACI 383: 83/83 variables en 436s | faltan 17.5 h
+[63/168] VUPACI 384: 83/83 variables en 437s | faltan 17.2 h
+[64/168] VUPACI 385: 83/83 variables en 451s | faltan 17.0 h
+[65/168] VUPACI 386: 83/83 variables en 433s | faltan 16.8 h
+    · registro: 386 hechos, 223991 filas, respaldo guardado, totales ok
+[66/168] VUPACI 387: 83/83 variables en 459s | faltan 16.5 h
+[67/168] VUPACI 388: 83/83 variables en 451s | faltan 16.3 h
+[68/168] VUPACI 389: 83/83 variables en 464s | faltan 16.1 h
+[69/168] VUPACI 390: 83/83 variables en 466s | faltan 15.9 h
+[70/168] VUPACI 391: 83/83 variables en 465s | faltan 15.7 h
+    · registro: 391 hechos, 226994 filas, respaldo guardado, totales ok
+[71/168] VUPACI 392: 83/83 variables en 471s | faltan 15.5 h
+[72/168] VUPACI 393: 82/83 variables en 574s | faltan 15.3 h | faltaron 1: ['Agua caliente central']
+[73/168] VUPACI 394: 83/83 variables en 472s | faltan 15.1 h
+[74/168] VUPACI 395: 83/83 variables en 495s | faltan 15.0 h
+[75/168] VUPACI 396: 83/83 variables en 481s | faltan 14.8 h
+    · registro: 396 hechos, 230020 filas, respaldo guardado, totales ok
+[76/168] VUPACI 397: 83/83 variables en 512s | faltan 14.6 h
+[77/168] VUPACI 398: 83/83 variables en 488s | faltan 14.4 h
+[78/168] VUPACI 399: 83/83 variables en 514s | faltan 14.2 h
+[79/168] VUPACI 400: 83/83 variables en 518s | faltan 14.1 h
+[80/168] VUPACI 401: 82/83 variables en 569s | faltan 13.9 h | faltaron 1: ['Año de llegada a la vivienda']
+    · registro: 401 hechos, 232852 filas, respaldo guardado, totales ok
+[81/168] VUPACI 402: 83/83 variables en 540s | faltan 13.7 h
+[82/168] VUPACI 403: 83/83 variables en 505s | faltan 13.6 h
+[83/168] VUPACI 404: 83/83 variables en 546s | faltan 13.4 h
+[84/168] VUPACI 405: 83/83 variables en 525s | faltan 13.2 h
+[85/168] VUPACI 406: 83/83 variables en 532s | faltan 13.1 h
+    · registro: 406 hechos, 235725 filas, respaldo guardado, totales ok
+    VUPACI 407: sólo 55/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 407: sólo 0/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 407: sólo 0/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 407: sólo 0/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 407: sólo 0/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 407: sólo 0/83 variables, vuelta 1
+    VUPACI 407: sólo 0/83 variables, vuelta 2
+    VUPACI 407: sólo 0/83 variables, vuelta 3
+    VUPACI 407: sólo 0/83 variables, vuelta 4
+    VUPACI 407: sólo 0/83 variables, vuelta 5
+    VUPACI 407: NO se pudo bajar, queda pendiente
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 3
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 4
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 5
+    VUPACI 408: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 3
+    VUPACI 408: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 4
+    VUPACI 408: sólo 0/83 variables, vuelta 5
+    VUPACI 408: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 408: sólo 0/83 variables, vuelta 1
+    VUPACI 408: sólo 0/83 variables, vuelta 2
+    VUPACI 408: sólo 0/83 variables, vuelta 3
+    VUPACI 408: sólo 0/83 variables, vuelta 4
+    VUPACI 408: sólo 0/83 variables, vuelta 5
+    VUPACI 408: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 408: sólo 0/83 variables, vuelta 1
+    VUPACI 408: sólo 0/83 variables, vuelta 2
+    VUPACI 408: sólo 0/83 variables, vuelta 3
+    VUPACI 408: sólo 0/83 variables, vuelta 4
+    VUPACI 408: sólo 0/83 variables, vuelta 5
+    VUPACI 408: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 408: sólo 0/83 variables, vuelta 1
+    VUPACI 408: sólo 0/83 variables, vuelta 2
+    VUPACI 408: sólo 0/83 variables, vuelta 3
+    VUPACI 408: sólo 0/83 variables, vuelta 4
+    VUPACI 408: sólo 0/83 variables, vuelta 5
+    VUPACI 408: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 408: sólo 0/83 variables, vuelta 1
+    VUPACI 408: sólo 0/83 variables, vuelta 2
+    VUPACI 408: sólo 0/83 variables, vuelta 3
+    VUPACI 408: sólo 0/83 variables, vuelta 4
+    VUPACI 408: sólo 0/83 variables, vuelta 5
+    VUPACI 408: NO se pudo bajar, queda pendiente
+    VUPACI 409: sólo 24/83 variables, vuelta 1
+    VUPACI 409: sólo 33/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 409: sólo 0/83 variables, vuelta 1
+    VUPACI 409: sólo 0/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 409: sólo 0/83 variables, vuelta 1
+    VUPACI 409: sólo 0/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 409: sólo 0/83 variables, vuelta 1
+    VUPACI 409: sólo 0/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 409: sólo 0/83 variables, vuelta 1
+    VUPACI 409: sólo 0/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 409: sólo 0/83 variables, vuelta 1
+    VUPACI 409: sólo 0/83 variables, vuelta 2
+    VUPACI 409: sólo 0/83 variables, vuelta 3
+    VUPACI 409: sólo 0/83 variables, vuelta 4
+    VUPACI 409: sólo 0/83 variables, vuelta 5
+    VUPACI 409: NO se pudo bajar, queda pendiente
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 3
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 4
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 5
+    VUPACI 410: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 3
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 4
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 5
+    VUPACI 410: cero variables en cinco vueltas, el INE debe estar roto; espero 10 min y repito el mismo grupo
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 3
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 4
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 5
+    VUPACI 410: cero variables en cinco vueltas, el INE debe estar roto; espero 20 min y repito el mismo grupo
+    VUPACI 410: sólo 0/83 variables, vuelta 1
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 2
+    VUPACI 410: sólo 0/83 variables, vuelta 3
+    VUPACI 410: sólo 0/83 variables, vuelta 4
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 5
+    VUPACI 410: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 410: geografía falló (HTTPSConnectionPool(host='www.ine.es', port=443): Read timed out. (read timeout=60)), vuelta 1
+    VUPACI 410: sólo 0/83 variables, vuelta 2
+    VUPACI 410: sólo 0/83 variables, vuelta 3
+    VUPACI 410: sólo 0/83 variables, vuelta 4
+    VUPACI 410: sólo 0/83 variables, vuelta 5
+    VUPACI 410: cero variables en cinco vueltas, el INE debe estar roto; espero 30 min y repito el mismo grupo
+    VUPACI 410: sólo 0/83 variables, vuelta 1
+    VUPACI 410: sólo 0/83 variables, vuelta 2
+[89/168] VUPACI 410: 80/83 variables en 8939s | faltan 21.3 h | faltaron 3: ['Sexo', 'Estado Civil', 'Año de llegada a la CC.AA.']
+[90/168] VUPACI 411: 80/83 variables en 784s | faltan 21.0 h | faltaron 3: ['Actividad del establecimiento (a 1 letra de la CNAE09)', 'CC.AA. de nacimiento', 'Tamaño de municipio de nacimiento']
+    · registro: 408 hechos, 236805 filas, respaldo guardado, totales ok
+[91/168] VUPACI 412: 83/83 variables en 338s | faltan 20.6 h
+[92/168] VUPACI 413: 82/83 variables en 349s | faltan 20.1 h | faltaron 1: ['País de residencia en 2001 (grandes grupos)']
+[93/168] VUPACI 414: 83/83 variables en 349s | faltan 19.7 h
+    VUPACI 415: sólo 12/83 variables, vuelta 1
+    VUPACI 415: sólo 14/83 variables, vuelta 2
+    [12:13:26] el INE no responde (HTTP 503), reintento en 2s
+    [12:13:29] el INE no responde (HTTP 503), reintento en 2s
+    [12:13:32] el INE no responde (HTTP 503), reintento en 5s
+    [12:13:38] el INE no responde (HTTP 503), reintento en 5s
+    [12:13:44] el INE no responde (HTTP 503), reintento en 10s
+    [12:13:55] el INE no responde (HTTP 503), reintento en 15s
+    [12:14:11] el INE no responde (HTTP 503), reintento en 30s
+    [12:14:42] el INE no responde (HTTP 503), reintento en 60s
+    [12:15:43] el INE no responde (HTTP 503), reintento en 120s
+    [12:17:44] el INE no responde (HTTP 503), reintento en 120s
+    [12:19:45] el INE no responde (HTTP 503), reintento en 120s
+    [12:21:46] el INE no responde (HTTP 503), reintento en 120s
+    [12:23:47] el INE no responde (HTTP 503), reintento en 120s
+    [12:25:48] el INE no responde (HTTP 503), reintento en 120s
+    [12:27:49] el INE no responde (HTTP 503), reintento en 120s
+    [12:29:51] el INE no responde (HTTP 503), reintento en 120s
+    [12:31:52] el INE no responde (HTTP 503), reintento en 120s
+    [12:33:53] el INE no responde (HTTP 503), reintento en 120s
+    [12:35:54] el INE no responde (HTTP 503), reintento en 120s
+    [12:37:56] el INE no responde (HTTP 503), reintento en 120s
+    [12:39:57] el INE no responde (HTTP 503), reintento en 120s
+    [12:41:58] el INE no responde (HTTP 503), reintento en 120s
+    [12:43:59] el INE no responde (HTTP 503), reintento en 120s
+    [12:46:00] el INE no responde (HTTP 503), reintento en 120s
+    [12:48:01] el INE no responde (HTTP 503), reintento en 120s
+    [12:50:02] el INE no responde (HTTP 503), reintento en 120s
+    [12:52:03] el INE no responde (HTTP 503), reintento en 120s
+    [12:54:05] el INE no responde (HTTP 503), reintento en 120s
+    [12:56:06] el INE no responde (HTTP 503), reintento en 120s
+    [12:58:07] el INE no responde (HTTP 503), reintento en 120s
+    [13:00:08] el INE no responde (HTTP 503), reintento en 120s
+    [13:02:09] el INE no responde (HTTP 503), reintento en 120s
+    [13:04:10] el INE no responde (HTTP 503), reintento en 120s
+    [13:06:11] el INE no responde (HTTP 503), reintento en 120s
+    [13:08:12] el INE no responde (HTTP 503), reintento en 120s
+    [13:10:13] el INE no responde (HTTP 503), reintento en 120s
+    [13:12:14] el INE no responde (HTTP 503), reintento en 120s
+    [13:14:15] el INE no responde (HTTP 503), reintento en 120s
+    [13:16:16] el INE no responde (HTTP 503), reintento en 120s
+    [13:18:17] el INE no responde (HTTP 503), reintento en 120s
+    [13:20:18] el INE no responde (HTTP 503), reintento en 120s
+    [13:22:19] el INE no responde (HTTP 503), reintento en 120s
+    [13:24:20] el INE no responde (HTTP 503), reintento en 120s
+    [13:26:21] el INE no responde (HTTP 503), reintento en 120s
+    [13:28:22] el INE no responde (HTTP 503), reintento en 120s
+    [13:30:24] el INE no responde (HTTP 503), reintento en 120s
+    [13:32:25] el INE no responde (HTTP 503), reintento en 120s
+    [13:34:26] el INE no responde (HTTP 503), reintento en 120s
+    [13:36:27] el INE no responde (HTTP 503), reintento en 120s
+[2026-10-21 16:30:02] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 411 VUPACI hechos | 78 pendientes
+estimación: 8.8 horas
+[1/78] VUPACI 407: 83/83 variables en 365s | faltan 7.8 h
+[2/78] VUPACI 408: 83/83 variables en 387s | faltan 7.9 h
+[3/78] VUPACI 409: 83/83 variables en 391s | faltan 7.9 h
+[4/78] VUPACI 415: 83/83 variables en 405s | faltan 8.0 h
+    VUPACI 416: sólo 21/83 variables, vuelta 1
+    [01:07:53] el INE no responde (ConnectionError), reintento en 2s
+    [01:07:58] el INE no responde (ConnectionError), reintento en 2s
+[2026-10-27 01:15:01] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 415 VUPACI hechos | 74 pendientes
+estimación: 8.4 horas
+[2026-10-27 09:15:01] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 415 VUPACI hechos | 74 pendientes
+estimación: 8.4 horas
+[2026-10-28 19:00:03] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 415 VUPACI hechos | 74 pendientes
+estimación: 8.4 horas
+[1/74] VUPACI 416: 83/83 variables en 379s | faltan 7.7 h
+[2/74] VUPACI 417: 83/83 variables en 355s | faltan 7.3 h
+[3/74] VUPACI 418: 83/83 variables en 393s | faltan 7.4 h
+[4/74] VUPACI 419: 83/83 variables en 366s | faltan 7.3 h
+[5/74] VUPACI 420: 83/83 variables en 392s | faltan 7.2 h
+    · registro: 420 hechos, 243911 filas, respaldo guardado, totales ok
+[6/74] VUPACI 421: 83/83 variables en 377s | faltan 7.1 h
+[7/74] VUPACI 422: 83/83 variables en 380s | faltan 7.0 h
+[8/74] VUPACI 423: 83/83 variables en 402s | faltan 7.0 h
+[9/74] VUPACI 424: 83/83 variables en 386s | faltan 6.9 h
+[10/74] VUPACI 425: 83/83 variables en 408s | faltan 6.8 h
+    · registro: 425 hechos, 246908 filas, respaldo guardado, totales ok
+[11/74] VUPACI 426: 83/83 variables en 394s | faltan 6.7 h
+[12/74] VUPACI 427: 83/83 variables en 409s | faltan 6.7 h
+    VUPACI 428: sólo 29/83 variables, vuelta 1
+[13/74] VUPACI 428: 83/83 variables en 817s | faltan 7.1 h
+[14/74] VUPACI 429: 83/83 variables en 337s | faltan 6.9 h
+[15/74] VUPACI 430: 83/83 variables en 330s | faltan 6.7 h
+    · registro: 430 hechos, 249897 filas, respaldo guardado, totales ok
+[2026-10-29 10:15:02] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 430 VUPACI hechos | 59 pendientes
+estimación: 6.7 horas
+[2026-10-29 14:00:01] vigilante: relanzado por caída
+83 variables x 489 VUPACI | 430 VUPACI hechos | 59 pendientes
+estimación: 6.7 horas
+[1/59] VUPACI 431: 83/83 variables en 379s | faltan 6.1 h
+[2/59] VUPACI 432: 83/83 variables en 361s | faltan 5.9 h
+[3/59] VUPACI 433: 83/83 variables en 410s | faltan 6.0 h
+[4/59] VUPACI 434: 83/83 variables en 391s | faltan 5.9 h
+[5/59] VUPACI 435: 83/83 variables en 405s | faltan 5.8 h
+    · registro: 435 hechos, 252849 filas, respaldo guardado, totales ok
+[6/59] VUPACI 436: 83/83 variables en 387s | faltan 5.7 h
+[7/59] VUPACI 437: 83/83 variables en 397s | faltan 5.6 h
+[8/59] VUPACI 438: 83/83 variables en 399s | faltan 5.5 h
+    VUPACI 439: sólo 5/83 variables, vuelta 1
+    VUPACI 439: sólo 4/83 variables, vuelta 2
+[2026-10-30 10:18:00] relanzado: tope de 20 min por vuelta + latido; vigilante ya no hereda el lock
+83 variables x 489 VUPACI | 438 VUPACI hechos | 51 pendientes
+estimación: 5.8 horas
+[2026-10-30 10:18:32] vigilante: relanzado por atasco: el panel no crece desde hace 1166 min
+83 variables x 489 VUPACI | 438 VUPACI hechos | 51 pendientes
+estimación: 5.8 horas
+      · VUPACI 439 vuelta 1: 20/83 variables, 80s
+      · VUPACI 439 vuelta 1: 40/83 variables, 158s

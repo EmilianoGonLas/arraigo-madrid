@@ -49,3 +49,27 @@ momento,VUPACI,rama,variable
 2026-10-15 23:49:52,339,Tareas no remuneradas,Cuidar a una persona con problemas salud
 2026-10-17 18:07:36 (truncada),142,Nivel de estudios,Tipo de estudios completados
 2026-10-17 18:07:36 (truncada),237,Datos básicos del edificio,Año de construcción (detalle)
+2026-10-19 12:02:18,249,Última residencia anterior,País de residencia anterior (grandes grupos)
+2026-10-19 12:26:35,253,Residencia actual,Tamaño de municipio de residencia
+2026-10-19 14:29:42,345,Residencia en 2001,CC.AA. de residencia en 2001
+2026-10-19 14:37:32,346,Otros datos de la vivienda,Régimen de tenencia (detalle)
+2026-10-19 14:45:21,347,Datos básicos del edificio,Estado del edificio
+2026-10-19 14:45:21,347,Lugar de nacimiento,CC.AA. de nacimiento
+2026-10-19 15:01:24,349,Años de llegada,Año de llegada a la vivienda
+2026-10-19 19:24:13,361,Última residencia anterior,CC.AA. de residencia anterior
+2026-10-19 19:24:13,361,Última residencia anterior,Tamaño de municipio de residencia anterior
+2026-10-19 19:24:13,361,Última residencia anterior,País de residencia anterior (grandes grupos)
+2026-10-19 19:24:13,361,Última residencia anterior,Relación entre residencia anterior y actual
+2026-10-19 19:24:13,361,Residencia en 2010,CC.AA. de residencia en 2010
+2026-10-19 19:24:13,361,Residencia en 2010,Tamaño de municipio de residencia en 2010
+2026-10-19 19:24:13,361,Residencia en 2010,País de residencia en 2010 (grandes grupos)
+2026-10-19 19:24:13,361,Residencia en 2010,Relación entre residencia en 2010 y actual
+2026-10-19 23:04:19,393,Instalaciones,Agua caliente central
+2026-10-20 00:11:50,401,Años de llegada,Año de llegada a la vivienda
+2026-10-20 11:32:53,410,Datos demográficos básicos,Sexo
+2026-10-20 11:32:53,410,Datos demográficos básicos,Estado Civil
+2026-10-20 11:32:53,410,Años de llegada,Año de llegada a la CC.AA.
+2026-10-20 11:45:57,411,Actividad del establecimiento,Actividad del establecimiento (a 1 letra de la CNAE09)
+2026-10-20 11:45:57,411,Lugar de nacimiento,CC.AA. de nacimiento
+2026-10-20 11:45:57,411,Lugar de nacimiento,Tamaño de municipio de nacimiento
+2026-10-20 11:57:27,413,Residencia en 2001,País de residencia en 2001 (grandes grupos)

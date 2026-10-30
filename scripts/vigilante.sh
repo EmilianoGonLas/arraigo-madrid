@@ -65,7 +65,15 @@ else
     exit 0
   fi
 
-  # vivo: ¿avanza? el CSV se reescribe al cerrar cada VUPACI
+  # Un proceso recién arrancado todavía no escribió nada: el CSV viejo no
+  # prueba que esté atascado, prueba que acaba de empezar. Sin esta guarda
+  # el vigilante lo mata cada 15 min y nunca lo deja cerrar el primer grupo.
+  EDAD=$(ps -o etimes= -p "${VIVOS[0]}" 2>/dev/null | tr -d ' ')
+  if [ -z "$EDAD" ] || [ "$EDAD" -lt $((ATASCO_MIN * 60)) ]; then
+    exit 0
+  fi
+
+  # vivo y con recorrido: ¿avanza? el CSV se reescribe al cerrar cada VUPACI
   if [ -f "$CSV" ] && [ -n "$(find "$CSV" -mmin +$ATASCO_MIN 2>/dev/null)" ]; then
     QUIETO=$(( ( $(date +%s) - $(stat -c %Y "$CSV") ) / 60 ))
     MOTIVO="atasco: el panel no crece desde hace $QUIETO min"
@@ -82,7 +90,13 @@ tail -3 "$LOG" 2>/dev/null | sed 's/^/    /' >> "$BITACORA"
 
 cd "$SCRIPTS" || exit 1
 echo "[$(date '+%F %T')] vigilante: relanzado por $MOTIVO" >> "$LOG"
-nohup python3 -u descargar_panel_2011.py --pausa 0.2 >> "$LOG" 2>&1 &
+# 9>&- cierra el descriptor del flock en el hijo. Sin eso la descarga hereda
+# el lock del vigilante y lo retiene mientras viva, así que todo vigilante
+# posterior encuentra el lock tomado y se va por el flock -n. Comprobado el
+# 30/10/2026: el lock lo tenía el propio python de la descarga, el vigilante
+# llevaba días saliendo en silencio y por eso detectaba caídas (ahí el
+# proceso muere y suelta el lock) pero jamás un atasco.
+nohup python3 -u descargar_panel_2011.py --pausa 0.2 >> "$LOG" 2>&1 9>&- &
 sleep 10
 
 if pgrep -f "descargar_panel_2011[.]py" > /dev/null; then

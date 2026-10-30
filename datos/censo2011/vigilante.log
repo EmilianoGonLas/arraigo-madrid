@@ -9,3 +9,55 @@
         [15:59:25] el INE volvió tras 2s
         [15:59:26] no se pudo abrir sesión (HTTPError), intento 19, reintento en 45s
 [2026-10-17 16:00:14] relanzada correctamente
+[2026-10-17 20:00:01] atasco: el panel no crece desde hace 2615 min, mato 542556 y relanzo
+[2026-10-17 20:00:04] atasco: el panel no crece desde hace 2615 min con 321/489 hechos, relanzando
+        VUPACI 185: sólo 0/83 variables, vuelta 4
+        VUPACI 185: sólo 0/83 variables, vuelta 5
+        VUPACI 185: cero variables en cinco vueltas, el INE debe estar roto; espero 5 min y repito el mismo grupo
+[2026-10-17 20:00:14] relanzada correctamente
+[2026-10-19 07:45:01] caída con 321/489 hechos, relanzando
+        [06:54:12] el INE avisa de una incidencia en su web; espero 15 min
+        [07:09:13] el INE avisa de una incidencia en su web; espero 15 min
+        [07:24:14] el INE avisa de una incidencia en su web; espero 15 min
+[2026-10-19 07:45:11] relanzada correctamente
+[2026-10-19 10:15:02] caída con 321/489 hechos, relanzando
+        [09:30:13] el INE avisa de una incidencia en su web; espero 15 min
+        [09:45:14] el INE avisa de una incidencia en su web; espero 15 min
+        [10:00:15] el INE avisa de una incidencia en su web; espero 15 min
+[2026-10-19 10:15:12] relanzada correctamente
+[2026-10-21 16:30:02] caída con 411/489 hechos, relanzando
+        [13:32:25] el INE no responde (HTTP 503), reintento en 120s
+        [13:34:26] el INE no responde (HTTP 503), reintento en 120s
+        [13:36:27] el INE no responde (HTTP 503), reintento en 120s
+[2026-10-21 16:30:12] relanzada correctamente
+[2026-10-27 01:15:01] caída con 415/489 hechos, relanzando
+        VUPACI 416: sólo 21/83 variables, vuelta 1
+        [01:07:53] el INE no responde (ConnectionError), reintento en 2s
+        [01:07:58] el INE no responde (ConnectionError), reintento en 2s
+[2026-10-27 01:15:12] relanzada correctamente
+[2026-10-27 09:15:01] caída con 415/489 hechos, relanzando
+    [2026-10-27 01:15:01] vigilante: relanzado por caída
+    83 variables x 489 VUPACI | 415 VUPACI hechos | 74 pendientes
+    estimación: 8.4 horas
+[2026-10-27 09:15:11] relanzada correctamente
+[2026-10-28 19:00:03] caída con 415/489 hechos, relanzando
+    [2026-10-27 09:15:01] vigilante: relanzado por caída
+    83 variables x 489 VUPACI | 415 VUPACI hechos | 74 pendientes
+    estimación: 8.4 horas
+[2026-10-28 19:00:13] relanzada correctamente
+[2026-10-29 10:15:02] caída con 430/489 hechos, relanzando
+    [14/74] VUPACI 429: 83/83 variables en 337s | faltan 6.9 h
+    [15/74] VUPACI 430: 83/83 variables en 330s | faltan 6.7 h
+        · registro: 430 hechos, 249897 filas, respaldo guardado, totales ok
+[2026-10-29 10:15:12] relanzada correctamente
+[2026-10-29 14:00:01] caída con 430/489 hechos, relanzando
+    [2026-10-29 10:15:02] vigilante: relanzado por caída
+    83 variables x 489 VUPACI | 430 VUPACI hechos | 59 pendientes
+    estimación: 6.7 horas
+[2026-10-29 14:00:11] relanzada correctamente
+[2026-10-30 10:18:29] atasco: el panel no crece desde hace 1166 min, mato 23310 y relanzo
+[2026-10-30 10:18:32] atasco: el panel no crece desde hace 1166 min con 438/489 hechos, relanzando
+    [2026-10-30 10:18:00] relanzado: tope de 20 min por vuelta + latido; vigilante ya no hereda el lock
+    83 variables x 489 VUPACI | 438 VUPACI hechos | 51 pendientes
+    estimación: 5.8 horas
+[2026-10-30 10:18:42] relanzada correctamente
